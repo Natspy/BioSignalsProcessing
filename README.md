@@ -1,5 +1,5 @@
 # BioSignalsProcessing
-Analysis of bioelectrical signals recorded in the Laboratory of Bioelectrical signals.
+Analysis of bioelectrical signals recorded in the Laboratory of Bioelectrical Signals.
 
 * EMG - Electromyography is a diagnostic procedure to assess the health of muscles and the nerve cells that control them (motor neurons). EMG results can reveal nerve dysfunction, muscle dysfunction or problems with nerve-to-muscle signal transmission. This EMG was recorded on patient's arm and face. You can view this part of analysis here: https://colab.research.google.com/drive/1KyatC1zv_64DXvyVP6kf3ZVa9T6ju3tL?usp=sharing
 
