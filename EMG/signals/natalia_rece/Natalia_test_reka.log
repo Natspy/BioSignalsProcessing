@@ -1,0 +1,271 @@
+4.5359 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1280, 1024]. Using actual size
+5.4152 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f01b30c99e8>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f01ae745198>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1280, 1024]), stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.4153 	EXP 	window1: recordFrameIntervals = False
+5.5842 	EXP 	window1: recordFrameIntervals = True
+5.8352 	WARNING 	t of last frame was 21.18ms (=1/47)
+5.9346 	WARNING 	t of last frame was 20.59ms (=1/48)
+5.9848 	WARNING 	t of last frame was 20.76ms (=1/48)
+6.1362 	WARNING 	t of last frame was 22.27ms (=1/44)
+6.2853 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+6.9140 	EXP 	window1: recordFrameIntervals = False
+6.9910 	EXP 	Created instr1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='instr1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+7.0002 	EXP 	Created komunikat = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.5, italic=False, languageStyle='LTR', name='komunikat', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+7.0102 	EXP 	Created end = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='end', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+7.0139 	EXP 	instr1: autoDraw = True
+8.0306 	DATA 	Keypress: space
+8.0409 	EXP 	Imported cond.csv as conditions, 2 conditions, 1 params
+8.0414 	EXP 	Created sequence: random, trialTypes=2, nReps=25, seed=None
+8.0418 	EXP 	New trial (rep=0, index=0): OrderedDict([('reka', 'Lewa')])
+8.0491 	EXP 	instr1: autoDraw = False
+8.0491 	EXP 	komunikat: text = 'Lewa'
+10.6645 	EXP 	komunikat: autoDraw = True
+11.6304 	EXP 	New trial (rep=0, index=1): OrderedDict([('reka', 'Prawa')])
+11.6494 	EXP 	komunikat: autoDraw = False
+11.6494 	EXP 	komunikat: autoDraw = False
+11.6494 	EXP 	komunikat: text = 'Prawa'
+13.8284 	EXP 	komunikat: autoDraw = True
+14.8122 	EXP 	New trial (rep=1, index=0): OrderedDict([('reka', 'Lewa')])
+14.8278 	EXP 	komunikat: autoDraw = False
+14.8278 	EXP 	komunikat: autoDraw = False
+14.8278 	EXP 	komunikat: text = 'Lewa'
+17.7767 	EXP 	komunikat: autoDraw = True
+18.7612 	EXP 	New trial (rep=1, index=1): OrderedDict([('reka', 'Prawa')])
+18.7763 	EXP 	komunikat: autoDraw = False
+18.7763 	EXP 	komunikat: autoDraw = False
+18.7763 	EXP 	komunikat: text = 'Prawa'
+21.4091 	EXP 	komunikat: autoDraw = True
+22.3759 	EXP 	New trial (rep=2, index=0): OrderedDict([('reka', 'Lewa')])
+22.3918 	EXP 	komunikat: autoDraw = False
+22.3918 	EXP 	komunikat: autoDraw = False
+22.3918 	EXP 	komunikat: text = 'Lewa'
+25.1578 	EXP 	komunikat: autoDraw = True
+26.1247 	EXP 	New trial (rep=2, index=1): OrderedDict([('reka', 'Prawa')])
+26.1409 	EXP 	komunikat: autoDraw = False
+26.1409 	EXP 	komunikat: autoDraw = False
+26.1409 	EXP 	komunikat: text = 'Prawa'
+29.0896 	EXP 	komunikat: autoDraw = True
+30.0572 	EXP 	New trial (rep=3, index=0): OrderedDict([('reka', 'Prawa')])
+30.0729 	EXP 	komunikat: autoDraw = False
+30.0729 	EXP 	komunikat: autoDraw = False
+30.0729 	EXP 	komunikat: text = 'Prawa'
+32.7718 	EXP 	komunikat: autoDraw = True
+33.7427 	EXP 	New trial (rep=3, index=1): OrderedDict([('reka', 'Lewa')])
+33.7549 	EXP 	komunikat: autoDraw = False
+33.7549 	EXP 	komunikat: autoDraw = False
+33.7549 	EXP 	komunikat: text = 'Lewa'
+36.4380 	EXP 	komunikat: autoDraw = True
+37.4213 	EXP 	New trial (rep=4, index=0): OrderedDict([('reka', 'Prawa')])
+37.4372 	EXP 	komunikat: autoDraw = False
+37.4372 	EXP 	komunikat: autoDraw = False
+37.4372 	EXP 	komunikat: text = 'Prawa'
+40.2031 	EXP 	komunikat: autoDraw = True
+41.1705 	EXP 	New trial (rep=4, index=1): OrderedDict([('reka', 'Lewa')])
+41.1857 	EXP 	komunikat: autoDraw = False
+41.1857 	EXP 	komunikat: autoDraw = False
+41.1857 	EXP 	komunikat: text = 'Lewa'
+43.2686 	EXP 	komunikat: autoDraw = True
+44.2357 	EXP 	New trial (rep=5, index=0): OrderedDict([('reka', 'Prawa')])
+44.2520 	EXP 	komunikat: autoDraw = False
+44.2520 	EXP 	komunikat: autoDraw = False
+44.2520 	EXP 	komunikat: text = 'Prawa'
+46.9517 	EXP 	komunikat: autoDraw = True
+47.9179 	EXP 	New trial (rep=5, index=1): OrderedDict([('reka', 'Lewa')])
+47.9334 	EXP 	komunikat: autoDraw = False
+47.9334 	EXP 	komunikat: autoDraw = False
+47.9334 	EXP 	komunikat: text = 'Lewa'
+50.8494 	EXP 	komunikat: autoDraw = True
+51.8179 	EXP 	New trial (rep=6, index=0): OrderedDict([('reka', 'Prawa')])
+51.8321 	EXP 	komunikat: autoDraw = False
+51.8321 	EXP 	komunikat: autoDraw = False
+51.8321 	EXP 	komunikat: text = 'Prawa'
+54.0164 	EXP 	komunikat: autoDraw = True
+54.9825 	EXP 	New trial (rep=6, index=1): OrderedDict([('reka', 'Lewa')])
+54.9978 	EXP 	komunikat: autoDraw = False
+54.9978 	EXP 	komunikat: autoDraw = False
+54.9978 	EXP 	komunikat: text = 'Lewa'
+57.4470 	EXP 	komunikat: autoDraw = True
+58.4157 	EXP 	New trial (rep=7, index=0): OrderedDict([('reka', 'Prawa')])
+58.4311 	EXP 	komunikat: autoDraw = False
+58.4311 	EXP 	komunikat: autoDraw = False
+58.4311 	EXP 	komunikat: text = 'Prawa'
+60.5960 	EXP 	komunikat: autoDraw = True
+61.5637 	EXP 	New trial (rep=7, index=1): OrderedDict([('reka', 'Lewa')])
+61.5792 	EXP 	komunikat: autoDraw = False
+61.5792 	EXP 	komunikat: autoDraw = False
+61.5792 	EXP 	komunikat: text = 'Lewa'
+63.6950 	EXP 	komunikat: autoDraw = True
+64.6630 	EXP 	New trial (rep=8, index=0): OrderedDict([('reka', 'Lewa')])
+64.6810 	EXP 	komunikat: autoDraw = False
+64.6810 	EXP 	komunikat: autoDraw = False
+64.6810 	EXP 	komunikat: text = 'Lewa'
+66.8612 	EXP 	komunikat: autoDraw = True
+67.8350 	EXP 	New trial (rep=8, index=1): OrderedDict([('reka', 'Prawa')])
+67.8436 	EXP 	komunikat: autoDraw = False
+67.8436 	EXP 	komunikat: autoDraw = False
+67.8436 	EXP 	komunikat: text = 'Prawa'
+70.5594 	EXP 	komunikat: autoDraw = True
+71.5268 	EXP 	New trial (rep=9, index=0): OrderedDict([('reka', 'Lewa')])
+71.5425 	EXP 	komunikat: autoDraw = False
+71.5425 	EXP 	komunikat: autoDraw = False
+71.5425 	EXP 	komunikat: text = 'Lewa'
+73.5939 	EXP 	komunikat: autoDraw = True
+74.5589 	EXP 	New trial (rep=9, index=1): OrderedDict([('reka', 'Prawa')])
+74.5750 	EXP 	komunikat: autoDraw = False
+74.5750 	EXP 	komunikat: autoDraw = False
+74.5750 	EXP 	komunikat: text = 'Prawa'
+77.4408 	EXP 	komunikat: autoDraw = True
+78.4116 	EXP 	New trial (rep=10, index=0): OrderedDict([('reka', 'Lewa')])
+78.4234 	EXP 	komunikat: autoDraw = False
+78.4234 	EXP 	komunikat: autoDraw = False
+78.4234 	EXP 	komunikat: text = 'Lewa'
+80.8728 	EXP 	komunikat: autoDraw = True
+81.8597 	EXP 	New trial (rep=10, index=1): OrderedDict([('reka', 'Prawa')])
+81.8724 	EXP 	komunikat: autoDraw = False
+81.8724 	EXP 	komunikat: autoDraw = False
+81.8724 	EXP 	komunikat: text = 'Prawa'
+84.7383 	EXP 	komunikat: autoDraw = True
+85.7061 	EXP 	New trial (rep=11, index=0): OrderedDict([('reka', 'Prawa')])
+85.7217 	EXP 	komunikat: autoDraw = False
+85.7217 	EXP 	komunikat: autoDraw = False
+85.7217 	EXP 	komunikat: text = 'Prawa'
+88.5370 	EXP 	komunikat: autoDraw = True
+89.5209 	EXP 	New trial (rep=11, index=1): OrderedDict([('reka', 'Lewa')])
+89.5365 	EXP 	komunikat: autoDraw = False
+89.5365 	EXP 	komunikat: autoDraw = False
+89.5365 	EXP 	komunikat: text = 'Lewa'
+91.8525 	EXP 	komunikat: autoDraw = True
+92.8202 	EXP 	New trial (rep=12, index=0): OrderedDict([('reka', 'Lewa')])
+92.8355 	EXP 	komunikat: autoDraw = False
+92.8355 	EXP 	komunikat: autoDraw = False
+92.8355 	EXP 	komunikat: text = 'Lewa'
+95.4681 	EXP 	komunikat: autoDraw = True
+96.4518 	EXP 	New trial (rep=12, index=1): OrderedDict([('reka', 'Prawa')])
+96.4677 	EXP 	komunikat: autoDraw = False
+96.4677 	EXP 	komunikat: autoDraw = False
+96.4677 	EXP 	komunikat: text = 'Prawa'
+99.0202 	EXP 	komunikat: autoDraw = True
+99.9844 	EXP 	New trial (rep=13, index=0): OrderedDict([('reka', 'Prawa')])
+100.0005 	EXP 	komunikat: autoDraw = False
+100.0005 	EXP 	komunikat: autoDraw = False
+100.0005 	EXP 	komunikat: text = 'Prawa'
+102.0325 	EXP 	komunikat: autoDraw = True
+103.0028 	EXP 	New trial (rep=13, index=1): OrderedDict([('reka', 'Lewa')])
+103.0160 	EXP 	komunikat: autoDraw = False
+103.0160 	EXP 	komunikat: autoDraw = False
+103.0160 	EXP 	komunikat: text = 'Lewa'
+105.4146 	EXP 	komunikat: autoDraw = True
+106.3820 	EXP 	New trial (rep=14, index=0): OrderedDict([('reka', 'Prawa')])
+106.3977 	EXP 	komunikat: autoDraw = False
+106.3977 	EXP 	komunikat: autoDraw = False
+106.3977 	EXP 	komunikat: text = 'Prawa'
+108.5825 	EXP 	komunikat: autoDraw = True
+109.5652 	EXP 	New trial (rep=14, index=1): OrderedDict([('reka', 'Lewa')])
+109.5800 	EXP 	komunikat: autoDraw = False
+109.5800 	EXP 	komunikat: autoDraw = False
+109.5800 	EXP 	komunikat: text = 'Lewa'
+112.1301 	EXP 	komunikat: autoDraw = True
+113.1135 	EXP 	New trial (rep=15, index=0): OrderedDict([('reka', 'Prawa')])
+113.1291 	EXP 	komunikat: autoDraw = False
+113.1291 	EXP 	komunikat: autoDraw = False
+113.1291 	EXP 	komunikat: text = 'Prawa'
+115.6614 	EXP 	komunikat: autoDraw = True
+116.6327 	EXP 	New trial (rep=15, index=1): OrderedDict([('reka', 'Lewa')])
+116.6460 	EXP 	komunikat: autoDraw = False
+116.6460 	EXP 	komunikat: autoDraw = False
+116.6460 	EXP 	komunikat: text = 'Lewa'
+119.4102 	EXP 	komunikat: autoDraw = True
+120.3778 	EXP 	New trial (rep=16, index=0): OrderedDict([('reka', 'Lewa')])
+120.3933 	EXP 	komunikat: autoDraw = False
+120.3933 	EXP 	komunikat: autoDraw = False
+120.3933 	EXP 	komunikat: text = 'Lewa'
+122.7758 	EXP 	komunikat: autoDraw = True
+123.7435 	EXP 	New trial (rep=16, index=1): OrderedDict([('reka', 'Prawa')])
+123.7587 	EXP 	komunikat: autoDraw = False
+123.7587 	EXP 	komunikat: autoDraw = False
+123.7587 	EXP 	komunikat: text = 'Prawa'
+126.6584 	EXP 	komunikat: autoDraw = True
+127.6426 	EXP 	New trial (rep=17, index=0): OrderedDict([('reka', 'Prawa')])
+127.6574 	EXP 	komunikat: autoDraw = False
+127.6574 	EXP 	komunikat: autoDraw = False
+127.6574 	EXP 	komunikat: text = 'Prawa'
+130.1238 	EXP 	komunikat: autoDraw = True
+131.1120 	EXP 	New trial (rep=17, index=1): OrderedDict([('reka', 'Lewa')])
+131.1230 	EXP 	komunikat: autoDraw = False
+131.1230 	EXP 	komunikat: autoDraw = False
+131.1230 	EXP 	komunikat: text = 'Lewa'
+133.3722 	EXP 	komunikat: autoDraw = True
+134.3397 	EXP 	New trial (rep=18, index=0): OrderedDict([('reka', 'Prawa')])
+134.3562 	EXP 	komunikat: autoDraw = False
+134.3562 	EXP 	komunikat: autoDraw = False
+134.3562 	EXP 	komunikat: text = 'Prawa'
+137.0878 	EXP 	komunikat: autoDraw = True
+138.0556 	EXP 	New trial (rep=18, index=1): OrderedDict([('reka', 'Lewa')])
+138.0708 	EXP 	komunikat: autoDraw = False
+138.0708 	EXP 	komunikat: autoDraw = False
+138.0708 	EXP 	komunikat: text = 'Lewa'
+140.7375 	EXP 	komunikat: autoDraw = True
+141.7042 	EXP 	New trial (rep=19, index=0): OrderedDict([('reka', 'Prawa')])
+141.7200 	EXP 	komunikat: autoDraw = False
+141.7200 	EXP 	komunikat: autoDraw = False
+141.7200 	EXP 	komunikat: text = 'Prawa'
+144.3020 	EXP 	komunikat: autoDraw = True
+145.2695 	EXP 	New trial (rep=19, index=1): OrderedDict([('reka', 'Lewa')])
+145.2850 	EXP 	komunikat: autoDraw = False
+145.2850 	EXP 	komunikat: autoDraw = False
+145.2850 	EXP 	komunikat: text = 'Lewa'
+147.7508 	EXP 	komunikat: autoDraw = True
+148.7370 	EXP 	New trial (rep=20, index=0): OrderedDict([('reka', 'Prawa')])
+148.7505 	EXP 	komunikat: autoDraw = False
+148.7505 	EXP 	komunikat: autoDraw = False
+148.7505 	EXP 	komunikat: text = 'Prawa'
+151.6663 	EXP 	komunikat: autoDraw = True
+152.6342 	EXP 	New trial (rep=20, index=1): OrderedDict([('reka', 'Lewa')])
+152.6503 	EXP 	komunikat: autoDraw = False
+152.6503 	EXP 	komunikat: autoDraw = False
+152.6503 	EXP 	komunikat: text = 'Lewa'
+155.1166 	EXP 	komunikat: autoDraw = True
+156.1050 	EXP 	New trial (rep=21, index=0): OrderedDict([('reka', 'Lewa')])
+156.1148 	EXP 	komunikat: autoDraw = False
+156.1148 	EXP 	komunikat: autoDraw = False
+156.1148 	EXP 	komunikat: text = 'Lewa'
+158.5503 	EXP 	komunikat: autoDraw = True
+159.5155 	EXP 	New trial (rep=21, index=1): OrderedDict([('reka', 'Prawa')])
+159.5302 	EXP 	komunikat: autoDraw = False
+159.5302 	EXP 	komunikat: autoDraw = False
+159.5302 	EXP 	komunikat: text = 'Prawa'
+162.5172 	EXP 	komunikat: autoDraw = True
+163.4971 	EXP 	New trial (rep=22, index=0): OrderedDict([('reka', 'Prawa')])
+163.5150 	EXP 	komunikat: autoDraw = False
+163.5150 	EXP 	komunikat: autoDraw = False
+163.5150 	EXP 	komunikat: text = 'Prawa'
+165.9618 	EXP 	komunikat: autoDraw = True
+166.9288 	EXP 	New trial (rep=22, index=1): OrderedDict([('reka', 'Lewa')])
+166.9447 	EXP 	komunikat: autoDraw = False
+166.9447 	EXP 	komunikat: autoDraw = False
+166.9447 	EXP 	komunikat: text = 'Lewa'
+169.8614 	EXP 	komunikat: autoDraw = True
+170.8288 	EXP 	New trial (rep=23, index=0): OrderedDict([('reka', 'Lewa')])
+170.8434 	EXP 	komunikat: autoDraw = False
+170.8434 	EXP 	komunikat: autoDraw = False
+170.8434 	EXP 	komunikat: text = 'Lewa'
+173.0927 	EXP 	komunikat: autoDraw = True
+174.0602 	EXP 	New trial (rep=23, index=1): OrderedDict([('reka', 'Prawa')])
+174.0755 	EXP 	komunikat: autoDraw = False
+174.0755 	EXP 	komunikat: autoDraw = False
+174.0755 	EXP 	komunikat: text = 'Prawa'
+176.7414 	EXP 	komunikat: autoDraw = True
+177.7083 	EXP 	New trial (rep=24, index=0): OrderedDict([('reka', 'Prawa')])
+177.7245 	EXP 	komunikat: autoDraw = False
+177.7245 	EXP 	komunikat: autoDraw = False
+177.7245 	EXP 	komunikat: text = 'Prawa'
+180.4408 	EXP 	komunikat: autoDraw = True
+181.4245 	EXP 	New trial (rep=24, index=1): OrderedDict([('reka', 'Lewa')])
+181.4402 	EXP 	komunikat: autoDraw = False
+181.4402 	EXP 	komunikat: autoDraw = False
+181.4402 	EXP 	komunikat: text = 'Lewa'
+184.2723 	EXP 	komunikat: autoDraw = True
+185.2576 	EXP 	komunikat: autoDraw = False
+185.2576 	EXP 	komunikat: autoDraw = False
+185.2576 	EXP 	end: autoDraw = True
+188.3212 	DATA 	Keypress: space
+188.3555 	EXP 	window1: mouseVisible = True

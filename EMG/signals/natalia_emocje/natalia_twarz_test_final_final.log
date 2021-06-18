@@ -1,0 +1,904 @@
+3.6278 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1280, 1024]. Using actual size
+4.4456 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f53144d16a0>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f53144bd5c0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1280, 1024]), stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.4457 	EXP 	window1: recordFrameIntervals = False
+4.6115 	EXP 	window1: recordFrameIntervals = True
+4.7821 	WARNING 	t of last frame was 20.64ms (=1/48)
+5.0318 	WARNING 	t of last frame was 20.47ms (=1/48)
+5.0842 	WARNING 	t of last frame was 22.93ms (=1/43)
+5.2615 	EXP 	window1: recordFrameIntervals = False
+5.3401 	EXP 	Created instr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='instr', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+5.3429 	EXP 	Created twarze = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='twarze', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.9]), texRes=128, units='norm', win=Window(...))
+5.3628 	EXP 	Created intr_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='intr_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+5.3645 	EXP 	Created twarze2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='twarze2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.9]), texRes=128, units='norm', win=Window(...))
+5.3750 	EXP 	Created end = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='end', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+5.3784 	EXP 	instr: autoDraw = True
+6.0327 	DATA 	Keypress: space
+6.0408 	EXP 	Imported cond.csv as conditions, 6 conditions, 1 params
+6.0411 	EXP 	Created sequence: sequential, trialTypes=6, nReps=15, seed=None
+6.0414 	EXP 	New trial (rep=0, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+6.0486 	EXP 	instr: autoDraw = False
+6.0486 	EXP 	twarze: image = '01f_an_c.bmp'
+7.0612 	EXP 	twarze: autoDraw = True
+7.5446 	EXP 	New trial (rep=0, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+7.5611 	EXP 	twarze: autoDraw = False
+7.5611 	EXP 	twarze: image = '01F_DI_C.bmp'
+8.5772 	EXP 	twarze: autoDraw = True
+9.0438 	EXP 	New trial (rep=0, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+9.0599 	EXP 	twarze: autoDraw = False
+9.0599 	EXP 	twarze: image = '01F_FE_C.bmp'
+10.0766 	EXP 	twarze: autoDraw = True
+10.5436 	EXP 	New trial (rep=0, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+10.5595 	EXP 	twarze: autoDraw = False
+10.5595 	EXP 	twarze: image = '02f_an_c.bmp'
+11.5759 	EXP 	twarze: autoDraw = True
+12.0429 	EXP 	New trial (rep=0, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+12.0590 	EXP 	twarze: autoDraw = False
+12.0590 	EXP 	twarze: image = '02f_di_c.bmp'
+13.0593 	EXP 	twarze: autoDraw = True
+13.5476 	EXP 	New trial (rep=0, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+13.5593 	EXP 	twarze: autoDraw = False
+13.5593 	EXP 	twarze: image = '02F_FE_C.bmp'
+14.5748 	EXP 	twarze: autoDraw = True
+15.0429 	EXP 	New trial (rep=1, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+15.0585 	EXP 	twarze: autoDraw = False
+15.0585 	EXP 	twarze: image = '01f_an_c.bmp'
+16.0744 	EXP 	twarze: autoDraw = True
+16.5443 	EXP 	New trial (rep=1, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+16.5584 	EXP 	twarze: autoDraw = False
+16.5584 	EXP 	twarze: image = '01F_DI_C.bmp'
+17.5739 	EXP 	twarze: autoDraw = True
+18.0422 	EXP 	New trial (rep=1, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+18.0573 	EXP 	twarze: autoDraw = False
+18.0573 	EXP 	twarze: image = '01F_FE_C.bmp'
+19.0735 	EXP 	twarze: autoDraw = True
+19.5408 	EXP 	New trial (rep=1, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+19.5576 	EXP 	twarze: autoDraw = False
+19.5576 	EXP 	twarze: image = '02f_an_c.bmp'
+20.5729 	EXP 	twarze: autoDraw = True
+21.0402 	EXP 	New trial (rep=1, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+21.0566 	EXP 	twarze: autoDraw = False
+21.0566 	EXP 	twarze: image = '02f_di_c.bmp'
+22.0723 	EXP 	twarze: autoDraw = True
+22.5398 	EXP 	New trial (rep=1, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+22.5559 	EXP 	twarze: autoDraw = False
+22.5559 	EXP 	twarze: image = '02F_FE_C.bmp'
+23.5718 	EXP 	twarze: autoDraw = True
+24.0394 	EXP 	New trial (rep=2, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+24.0572 	EXP 	twarze: autoDraw = False
+24.0572 	EXP 	twarze: image = '01f_an_c.bmp'
+25.0714 	EXP 	twarze: autoDraw = True
+25.5386 	EXP 	New trial (rep=2, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+25.5584 	EXP 	twarze: autoDraw = False
+25.5584 	EXP 	twarze: image = '01F_DI_C.bmp'
+26.5723 	EXP 	twarze: autoDraw = True
+27.0381 	EXP 	New trial (rep=2, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+27.0550 	EXP 	twarze: autoDraw = False
+27.0550 	EXP 	twarze: image = '01F_FE_C.bmp'
+28.0705 	EXP 	twarze: autoDraw = True
+28.5383 	EXP 	New trial (rep=2, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+28.5543 	EXP 	twarze: autoDraw = False
+28.5543 	EXP 	twarze: image = '02f_an_c.bmp'
+29.5713 	EXP 	twarze: autoDraw = True
+30.0370 	EXP 	New trial (rep=2, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+30.0532 	EXP 	twarze: autoDraw = False
+30.0532 	EXP 	twarze: image = '02f_di_c.bmp'
+31.0705 	EXP 	twarze: autoDraw = True
+31.5366 	EXP 	New trial (rep=2, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+31.5535 	EXP 	twarze: autoDraw = False
+31.5535 	EXP 	twarze: image = '02F_FE_C.bmp'
+32.5711 	EXP 	twarze: autoDraw = True
+33.0359 	EXP 	New trial (rep=3, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+33.0522 	EXP 	twarze: autoDraw = False
+33.0522 	EXP 	twarze: image = '01f_an_c.bmp'
+34.0711 	EXP 	twarze: autoDraw = True
+34.5357 	EXP 	New trial (rep=3, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+34.5517 	EXP 	twarze: autoDraw = False
+34.5517 	EXP 	twarze: image = '01F_DI_C.bmp'
+35.5686 	EXP 	twarze: autoDraw = True
+36.0352 	EXP 	New trial (rep=3, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+36.0513 	EXP 	twarze: autoDraw = False
+36.0513 	EXP 	twarze: image = '01F_FE_C.bmp'
+37.0681 	EXP 	twarze: autoDraw = True
+37.5347 	EXP 	New trial (rep=3, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+37.5508 	EXP 	twarze: autoDraw = False
+37.5508 	EXP 	twarze: image = '02f_an_c.bmp'
+38.5678 	EXP 	twarze: autoDraw = True
+39.0352 	EXP 	New trial (rep=3, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+39.0502 	EXP 	twarze: autoDraw = False
+39.0502 	EXP 	twarze: image = '02f_di_c.bmp'
+40.0664 	EXP 	twarze: autoDraw = True
+40.5386 	EXP 	New trial (rep=3, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+40.5496 	EXP 	twarze: autoDraw = False
+40.5496 	EXP 	twarze: image = '02F_FE_C.bmp'
+41.5660 	EXP 	twarze: autoDraw = True
+42.0339 	EXP 	New trial (rep=4, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+42.0491 	EXP 	twarze: autoDraw = False
+42.0491 	EXP 	twarze: image = '01f_an_c.bmp'
+43.0665 	EXP 	twarze: autoDraw = True
+43.5337 	EXP 	New trial (rep=4, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+43.5487 	EXP 	twarze: autoDraw = False
+43.5487 	EXP 	twarze: autoDraw = False
+43.5487 	EXP 	twarze: image = '01F_DI_C.bmp'
+44.5650 	EXP 	twarze: autoDraw = True
+45.0337 	EXP 	New trial (rep=4, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+45.0488 	EXP 	twarze: autoDraw = False
+45.0488 	EXP 	twarze: autoDraw = False
+45.0488 	EXP 	twarze: image = '01F_FE_C.bmp'
+46.0646 	EXP 	twarze: autoDraw = True
+46.5320 	EXP 	New trial (rep=4, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+46.5482 	EXP 	twarze: autoDraw = False
+46.5482 	EXP 	twarze: autoDraw = False
+46.5482 	EXP 	twarze: image = '02f_an_c.bmp'
+47.5643 	EXP 	twarze: autoDraw = True
+48.0317 	EXP 	New trial (rep=4, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+48.0488 	EXP 	twarze: autoDraw = False
+48.0488 	EXP 	twarze: autoDraw = False
+48.0488 	EXP 	twarze: image = '02f_di_c.bmp'
+49.0667 	EXP 	twarze: autoDraw = True
+49.5315 	EXP 	New trial (rep=4, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+49.5489 	EXP 	twarze: autoDraw = False
+49.5489 	EXP 	twarze: autoDraw = False
+49.5489 	EXP 	twarze: image = '02F_FE_C.bmp'
+50.5663 	EXP 	twarze: autoDraw = True
+51.0308 	EXP 	New trial (rep=5, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+51.0466 	EXP 	twarze: autoDraw = False
+51.0466 	EXP 	twarze: autoDraw = False
+51.0466 	EXP 	twarze: image = '01f_an_c.bmp'
+52.0633 	EXP 	twarze: autoDraw = True
+52.5303 	EXP 	New trial (rep=5, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+52.5462 	EXP 	twarze: autoDraw = False
+52.5462 	EXP 	twarze: autoDraw = False
+52.5462 	EXP 	twarze: image = '01F_DI_C.bmp'
+53.5625 	EXP 	twarze: autoDraw = True
+54.0295 	EXP 	New trial (rep=5, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+54.0453 	EXP 	twarze: autoDraw = False
+54.0453 	EXP 	twarze: autoDraw = False
+54.0453 	EXP 	twarze: image = '01F_FE_C.bmp'
+55.0622 	EXP 	twarze: autoDraw = True
+55.5289 	EXP 	New trial (rep=5, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+55.5448 	EXP 	twarze: autoDraw = False
+55.5448 	EXP 	twarze: autoDraw = False
+55.5448 	EXP 	twarze: image = '02f_an_c.bmp'
+56.5666 	EXP 	twarze: autoDraw = True
+57.0286 	EXP 	New trial (rep=5, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+57.0446 	EXP 	twarze: autoDraw = False
+57.0446 	EXP 	twarze: autoDraw = False
+57.0446 	EXP 	twarze: image = '02f_di_c.bmp'
+58.0614 	EXP 	twarze: autoDraw = True
+58.5284 	EXP 	New trial (rep=5, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+58.5444 	EXP 	twarze: autoDraw = False
+58.5444 	EXP 	twarze: autoDraw = False
+58.5444 	EXP 	twarze: image = '02F_FE_C.bmp'
+59.5650 	EXP 	twarze: autoDraw = True
+60.0272 	EXP 	New trial (rep=6, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+60.0432 	EXP 	twarze: autoDraw = False
+60.0432 	EXP 	twarze: autoDraw = False
+60.0432 	EXP 	twarze: image = '01f_an_c.bmp'
+61.0601 	EXP 	twarze: autoDraw = True
+61.5268 	EXP 	New trial (rep=6, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+61.5428 	EXP 	twarze: autoDraw = False
+61.5428 	EXP 	twarze: autoDraw = False
+61.5428 	EXP 	twarze: image = '01F_DI_C.bmp'
+62.5601 	EXP 	twarze: autoDraw = True
+63.0275 	EXP 	New trial (rep=6, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+63.0432 	EXP 	twarze: autoDraw = False
+63.0432 	EXP 	twarze: autoDraw = False
+63.0432 	EXP 	twarze: image = '01F_FE_C.bmp'
+64.0590 	EXP 	twarze: autoDraw = True
+64.5292 	EXP 	New trial (rep=6, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+64.5417 	EXP 	twarze: autoDraw = False
+64.5417 	EXP 	twarze: autoDraw = False
+64.5417 	EXP 	twarze: image = '02f_an_c.bmp'
+65.5586 	EXP 	twarze: autoDraw = True
+66.0264 	EXP 	New trial (rep=6, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+66.0412 	EXP 	twarze: autoDraw = False
+66.0412 	EXP 	twarze: autoDraw = False
+66.0412 	EXP 	twarze: image = '02f_di_c.bmp'
+67.0580 	EXP 	twarze: autoDraw = True
+67.5257 	EXP 	New trial (rep=6, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+67.5443 	EXP 	twarze: autoDraw = False
+67.5443 	EXP 	twarze: autoDraw = False
+67.5443 	EXP 	twarze: image = '02F_FE_C.bmp'
+68.5405 	EXP 	twarze: autoDraw = True
+69.0265 	EXP 	New trial (rep=7, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+69.0407 	EXP 	twarze: autoDraw = False
+69.0407 	EXP 	twarze: autoDraw = False
+69.0407 	EXP 	twarze: image = '01f_an_c.bmp'
+70.0576 	EXP 	twarze: autoDraw = True
+70.5253 	EXP 	New trial (rep=7, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+70.5399 	EXP 	twarze: autoDraw = False
+70.5399 	EXP 	twarze: autoDraw = False
+70.5399 	EXP 	twarze: image = '01F_DI_C.bmp'
+71.5568 	EXP 	twarze: autoDraw = True
+72.0240 	EXP 	New trial (rep=7, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+72.0400 	EXP 	twarze: autoDraw = False
+72.0400 	EXP 	twarze: autoDraw = False
+72.0400 	EXP 	twarze: image = '01F_FE_C.bmp'
+73.0558 	EXP 	twarze: autoDraw = True
+73.5237 	EXP 	New trial (rep=7, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+73.5404 	EXP 	twarze: autoDraw = False
+73.5404 	EXP 	twarze: autoDraw = False
+73.5404 	EXP 	twarze: image = '02f_an_c.bmp'
+74.5560 	EXP 	twarze: autoDraw = True
+75.0228 	EXP 	New trial (rep=7, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+75.0398 	EXP 	twarze: autoDraw = False
+75.0398 	EXP 	twarze: autoDraw = False
+75.0398 	EXP 	twarze: image = '02f_di_c.bmp'
+76.0547 	EXP 	twarze: autoDraw = True
+76.5221 	EXP 	New trial (rep=7, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+76.5392 	EXP 	twarze: autoDraw = False
+76.5392 	EXP 	twarze: autoDraw = False
+76.5392 	EXP 	twarze: image = '02F_FE_C.bmp'
+77.5552 	EXP 	twarze: autoDraw = True
+78.0219 	EXP 	New trial (rep=8, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+78.0418 	EXP 	twarze: autoDraw = False
+78.0418 	EXP 	twarze: autoDraw = False
+78.0418 	EXP 	twarze: image = '01f_an_c.bmp'
+79.0542 	EXP 	twarze: autoDraw = True
+79.5210 	EXP 	New trial (rep=8, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+79.5374 	EXP 	twarze: autoDraw = False
+79.5374 	EXP 	twarze: autoDraw = False
+79.5374 	EXP 	twarze: image = '01F_DI_C.bmp'
+80.5564 	EXP 	twarze: autoDraw = True
+81.0207 	EXP 	New trial (rep=8, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+81.0363 	EXP 	twarze: autoDraw = False
+81.0363 	EXP 	twarze: autoDraw = False
+81.0363 	EXP 	twarze: image = '01F_FE_C.bmp'
+82.0529 	EXP 	twarze: autoDraw = True
+82.5201 	EXP 	New trial (rep=8, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+82.5361 	EXP 	twarze: autoDraw = False
+82.5361 	EXP 	twarze: autoDraw = False
+82.5361 	EXP 	twarze: image = '02f_an_c.bmp'
+83.5549 	EXP 	twarze: autoDraw = True
+84.0196 	EXP 	New trial (rep=8, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+84.0354 	EXP 	twarze: autoDraw = False
+84.0354 	EXP 	twarze: autoDraw = False
+84.0354 	EXP 	twarze: image = '02f_di_c.bmp'
+85.0557 	EXP 	twarze: autoDraw = True
+85.5189 	EXP 	New trial (rep=8, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+85.5351 	EXP 	twarze: autoDraw = False
+85.5351 	EXP 	twarze: autoDraw = False
+85.5351 	EXP 	twarze: image = '02F_FE_C.bmp'
+86.5517 	EXP 	twarze: autoDraw = True
+87.0186 	EXP 	New trial (rep=9, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+87.0345 	EXP 	twarze: autoDraw = False
+87.0345 	EXP 	twarze: autoDraw = False
+87.0345 	EXP 	twarze: image = '01f_an_c.bmp'
+88.0511 	EXP 	twarze: autoDraw = True
+88.5183 	EXP 	New trial (rep=9, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+88.5347 	EXP 	twarze: autoDraw = False
+88.5347 	EXP 	twarze: autoDraw = False
+88.5347 	EXP 	twarze: image = '01F_DI_C.bmp'
+89.5503 	EXP 	twarze: autoDraw = True
+90.0196 	EXP 	New trial (rep=9, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+90.0356 	EXP 	twarze: autoDraw = False
+90.0356 	EXP 	twarze: autoDraw = False
+90.0356 	EXP 	twarze: image = '01F_FE_C.bmp'
+91.0498 	EXP 	twarze: autoDraw = True
+91.5236 	EXP 	New trial (rep=9, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+91.5348 	EXP 	twarze: autoDraw = False
+91.5348 	EXP 	twarze: autoDraw = False
+91.5348 	EXP 	twarze: image = '02f_an_c.bmp'
+92.5495 	EXP 	twarze: autoDraw = True
+93.0182 	EXP 	New trial (rep=9, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+93.0347 	EXP 	twarze: autoDraw = False
+93.0347 	EXP 	twarze: autoDraw = False
+93.0347 	EXP 	twarze: image = '02f_di_c.bmp'
+94.0322 	EXP 	twarze: autoDraw = True
+94.5176 	EXP 	New trial (rep=9, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+94.5329 	EXP 	twarze: autoDraw = False
+94.5329 	EXP 	twarze: autoDraw = False
+94.5329 	EXP 	twarze: image = '02F_FE_C.bmp'
+95.5486 	EXP 	twarze: autoDraw = True
+96.0201 	EXP 	New trial (rep=10, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+96.0339 	EXP 	twarze: autoDraw = False
+96.0339 	EXP 	twarze: autoDraw = False
+96.0339 	EXP 	twarze: image = '01f_an_c.bmp'
+97.0481 	EXP 	twarze: autoDraw = True
+97.5160 	EXP 	New trial (rep=10, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+97.5327 	EXP 	twarze: autoDraw = False
+97.5327 	EXP 	twarze: autoDraw = False
+97.5327 	EXP 	twarze: image = '01F_DI_C.bmp'
+98.5476 	EXP 	twarze: autoDraw = True
+99.0165 	EXP 	New trial (rep=10, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+99.0348 	EXP 	twarze: autoDraw = False
+99.0348 	EXP 	twarze: autoDraw = False
+99.0348 	EXP 	twarze: image = '01F_FE_C.bmp'
+100.0470 	EXP 	twarze: autoDraw = True
+100.5150 	EXP 	New trial (rep=10, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+100.5309 	EXP 	twarze: autoDraw = False
+100.5309 	EXP 	twarze: autoDraw = False
+100.5309 	EXP 	twarze: image = '02f_an_c.bmp'
+101.5464 	EXP 	twarze: autoDraw = True
+102.0136 	EXP 	New trial (rep=10, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+102.0298 	EXP 	twarze: autoDraw = False
+102.0298 	EXP 	twarze: autoDraw = False
+102.0298 	EXP 	twarze: image = '02f_di_c.bmp'
+103.0458 	EXP 	twarze: autoDraw = True
+103.5133 	EXP 	New trial (rep=10, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+103.5295 	EXP 	twarze: autoDraw = False
+103.5295 	EXP 	twarze: autoDraw = False
+103.5295 	EXP 	twarze: image = '02F_FE_C.bmp'
+104.5489 	EXP 	twarze: autoDraw = True
+105.0125 	EXP 	New trial (rep=11, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+105.0291 	EXP 	twarze: autoDraw = False
+105.0291 	EXP 	twarze: autoDraw = False
+105.0291 	EXP 	twarze: image = '01f_an_c.bmp'
+106.0453 	EXP 	twarze: autoDraw = True
+106.5121 	EXP 	New trial (rep=11, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+106.5281 	EXP 	twarze: autoDraw = False
+106.5281 	EXP 	twarze: autoDraw = False
+106.5281 	EXP 	twarze: image = '01F_DI_C.bmp'
+107.5445 	EXP 	twarze: autoDraw = True
+108.0116 	EXP 	New trial (rep=11, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+108.0281 	EXP 	twarze: autoDraw = False
+108.0281 	EXP 	twarze: autoDraw = False
+108.0281 	EXP 	twarze: image = '01F_FE_C.bmp'
+109.0441 	EXP 	twarze: autoDraw = True
+109.5152 	EXP 	New trial (rep=11, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+109.5297 	EXP 	twarze: autoDraw = False
+109.5297 	EXP 	twarze: autoDraw = False
+109.5297 	EXP 	twarze: image = '02f_an_c.bmp'
+110.5435 	EXP 	twarze: autoDraw = True
+111.0116 	EXP 	New trial (rep=11, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+111.0275 	EXP 	twarze: autoDraw = False
+111.0275 	EXP 	twarze: autoDraw = False
+111.0275 	EXP 	twarze: image = '02f_di_c.bmp'
+112.0436 	EXP 	twarze: autoDraw = True
+112.5115 	EXP 	New trial (rep=11, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+112.5265 	EXP 	twarze: autoDraw = False
+112.5265 	EXP 	twarze: autoDraw = False
+112.5265 	EXP 	twarze: image = '02F_FE_C.bmp'
+113.5424 	EXP 	twarze: autoDraw = True
+114.0115 	EXP 	New trial (rep=12, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+114.0265 	EXP 	twarze: autoDraw = False
+114.0265 	EXP 	twarze: autoDraw = False
+114.0265 	EXP 	twarze: image = '01f_an_c.bmp'
+115.0424 	EXP 	twarze: autoDraw = True
+115.5099 	EXP 	New trial (rep=12, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+115.5268 	EXP 	twarze: autoDraw = False
+115.5268 	EXP 	twarze: autoDraw = False
+115.5268 	EXP 	twarze: image = '01F_DI_C.bmp'
+116.5416 	EXP 	twarze: autoDraw = True
+117.0088 	EXP 	New trial (rep=12, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+117.0250 	EXP 	twarze: autoDraw = False
+117.0250 	EXP 	twarze: autoDraw = False
+117.0250 	EXP 	twarze: image = '01F_FE_C.bmp'
+118.0450 	EXP 	twarze: autoDraw = True
+118.5085 	EXP 	New trial (rep=12, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+118.5250 	EXP 	twarze: autoDraw = False
+118.5250 	EXP 	twarze: autoDraw = False
+118.5250 	EXP 	twarze: image = '02f_an_c.bmp'
+119.5412 	EXP 	twarze: autoDraw = True
+120.0080 	EXP 	New trial (rep=12, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+120.0238 	EXP 	twarze: autoDraw = False
+120.0238 	EXP 	twarze: autoDraw = False
+120.0238 	EXP 	twarze: image = '02f_di_c.bmp'
+121.0401 	EXP 	twarze: autoDraw = True
+121.5074 	EXP 	New trial (rep=12, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+121.5231 	EXP 	twarze: autoDraw = False
+121.5231 	EXP 	twarze: autoDraw = False
+121.5231 	EXP 	twarze: image = '02F_FE_C.bmp'
+122.5406 	EXP 	twarze: autoDraw = True
+123.0069 	EXP 	New trial (rep=13, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+123.0229 	EXP 	twarze: autoDraw = False
+123.0229 	EXP 	twarze: autoDraw = False
+123.0229 	EXP 	twarze: image = '01f_an_c.bmp'
+124.0408 	EXP 	twarze: autoDraw = True
+124.5065 	EXP 	New trial (rep=13, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+124.5223 	EXP 	twarze: autoDraw = False
+124.5223 	EXP 	twarze: autoDraw = False
+124.5223 	EXP 	twarze: image = '01F_DI_C.bmp'
+125.5392 	EXP 	twarze: autoDraw = True
+126.0061 	EXP 	New trial (rep=13, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+126.0218 	EXP 	twarze: autoDraw = False
+126.0218 	EXP 	twarze: autoDraw = False
+126.0218 	EXP 	twarze: image = '01F_FE_C.bmp'
+127.0385 	EXP 	twarze: autoDraw = True
+127.5052 	EXP 	New trial (rep=13, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+127.5212 	EXP 	twarze: autoDraw = False
+127.5212 	EXP 	twarze: autoDraw = False
+127.5212 	EXP 	twarze: image = '02f_an_c.bmp'
+128.5377 	EXP 	twarze: autoDraw = True
+129.0050 	EXP 	New trial (rep=13, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+129.0207 	EXP 	twarze: autoDraw = False
+129.0207 	EXP 	twarze: autoDraw = False
+129.0207 	EXP 	twarze: image = '02f_di_c.bmp'
+130.0371 	EXP 	twarze: autoDraw = True
+130.5063 	EXP 	New trial (rep=13, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+130.5202 	EXP 	twarze: autoDraw = False
+130.5202 	EXP 	twarze: autoDraw = False
+130.5202 	EXP 	twarze: image = '02F_FE_C.bmp'
+131.5200 	EXP 	twarze: autoDraw = True
+132.0045 	EXP 	New trial (rep=14, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+132.0198 	EXP 	twarze: autoDraw = False
+132.0198 	EXP 	twarze: autoDraw = False
+132.0198 	EXP 	twarze: image = '01f_an_c.bmp'
+133.0368 	EXP 	twarze: autoDraw = True
+133.5049 	EXP 	New trial (rep=14, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+133.5199 	EXP 	twarze: autoDraw = False
+133.5199 	EXP 	twarze: autoDraw = False
+133.5199 	EXP 	twarze: image = '01F_DI_C.bmp'
+134.5356 	EXP 	twarze: autoDraw = True
+135.0049 	EXP 	New trial (rep=14, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+135.0194 	EXP 	twarze: autoDraw = False
+135.0194 	EXP 	twarze: autoDraw = False
+135.0194 	EXP 	twarze: image = '01F_FE_C.bmp'
+136.0350 	EXP 	twarze: autoDraw = True
+136.5057 	EXP 	New trial (rep=14, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+136.5182 	EXP 	twarze: autoDraw = False
+136.5182 	EXP 	twarze: autoDraw = False
+136.5182 	EXP 	twarze: image = '02f_an_c.bmp'
+137.5347 	EXP 	twarze: autoDraw = True
+138.0024 	EXP 	New trial (rep=14, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+138.0195 	EXP 	twarze: autoDraw = False
+138.0195 	EXP 	twarze: autoDraw = False
+138.0195 	EXP 	twarze: image = '02f_di_c.bmp'
+139.0341 	EXP 	twarze: autoDraw = True
+139.5017 	EXP 	New trial (rep=14, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+139.5173 	EXP 	twarze: autoDraw = False
+139.5173 	EXP 	twarze: autoDraw = False
+139.5173 	EXP 	twarze: image = '02F_FE_C.bmp'
+140.5344 	EXP 	twarze: autoDraw = True
+141.0185 	EXP 	twarze: autoDraw = False
+141.0185 	EXP 	twarze: autoDraw = False
+141.0185 	EXP 	intr_2: autoDraw = True
+143.6497 	DATA 	Keypress: space
+143.6562 	EXP 	Imported cond.csv as conditions, 6 conditions, 1 params
+143.6565 	EXP 	Created sequence: sequential, trialTypes=6, nReps=15, seed=None
+143.6568 	EXP 	New trial (rep=0, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+143.6675 	EXP 	intr_2: autoDraw = False
+143.6675 	EXP 	twarze2: image = '01f_an_c.bmp'
+145.1826 	EXP 	twarze2: autoDraw = True
+148.1490 	EXP 	New trial (rep=0, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+148.1649 	EXP 	twarze2: autoDraw = False
+148.1649 	EXP 	twarze2: autoDraw = False
+148.1649 	EXP 	twarze2: image = '01F_DI_C.bmp'
+149.6824 	EXP 	twarze2: autoDraw = True
+152.6471 	EXP 	New trial (rep=0, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+152.6631 	EXP 	twarze2: autoDraw = False
+152.6631 	EXP 	twarze2: autoDraw = False
+152.6631 	EXP 	twarze2: image = '01F_FE_C.bmp'
+154.1852 	EXP 	twarze2: autoDraw = True
+157.1456 	EXP 	New trial (rep=0, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+157.1621 	EXP 	twarze2: autoDraw = False
+157.1621 	EXP 	twarze2: autoDraw = False
+157.1621 	EXP 	twarze2: image = '02f_an_c.bmp'
+158.6610 	EXP 	twarze2: autoDraw = True
+161.6450 	EXP 	New trial (rep=0, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+161.6601 	EXP 	twarze2: autoDraw = False
+161.6601 	EXP 	twarze2: autoDraw = False
+161.6601 	EXP 	twarze2: image = '02f_di_c.bmp'
+163.1763 	EXP 	twarze2: autoDraw = True
+166.1430 	EXP 	New trial (rep=0, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+166.1643 	EXP 	twarze2: autoDraw = False
+166.1643 	EXP 	twarze2: autoDraw = False
+166.1643 	EXP 	twarze2: image = '02F_FE_C.bmp'
+167.6751 	EXP 	twarze2: autoDraw = True
+170.6415 	EXP 	New trial (rep=1, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+170.6626 	EXP 	twarze2: autoDraw = False
+170.6626 	EXP 	twarze2: autoDraw = False
+170.6626 	EXP 	twarze2: image = '01f_an_c.bmp'
+172.1737 	EXP 	twarze2: autoDraw = True
+175.1398 	EXP 	New trial (rep=1, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+175.1557 	EXP 	twarze2: autoDraw = False
+175.1557 	EXP 	twarze2: autoDraw = False
+175.1557 	EXP 	twarze2: image = '01F_DI_C.bmp'
+176.6764 	EXP 	twarze2: autoDraw = True
+179.6386 	EXP 	New trial (rep=1, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+179.6542 	EXP 	twarze2: autoDraw = False
+179.6542 	EXP 	twarze2: autoDraw = False
+179.6542 	EXP 	twarze2: image = '01F_FE_C.bmp'
+181.1707 	EXP 	twarze2: autoDraw = True
+184.1380 	EXP 	New trial (rep=1, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+184.1580 	EXP 	twarze2: autoDraw = False
+184.1580 	EXP 	twarze2: autoDraw = False
+184.1580 	EXP 	twarze2: image = '02f_an_c.bmp'
+185.6689 	EXP 	twarze2: autoDraw = True
+188.6387 	EXP 	New trial (rep=1, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+188.6546 	EXP 	twarze2: autoDraw = False
+188.6546 	EXP 	twarze2: autoDraw = False
+188.6546 	EXP 	twarze2: image = '02f_di_c.bmp'
+190.1675 	EXP 	twarze2: autoDraw = True
+193.1340 	EXP 	New trial (rep=1, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+193.1549 	EXP 	twarze2: autoDraw = False
+193.1549 	EXP 	twarze2: autoDraw = False
+193.1549 	EXP 	twarze2: image = '02F_FE_C.bmp'
+194.6660 	EXP 	twarze2: autoDraw = True
+197.6328 	EXP 	New trial (rep=2, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+197.6485 	EXP 	twarze2: autoDraw = False
+197.6485 	EXP 	twarze2: autoDraw = False
+197.6485 	EXP 	twarze2: image = '01f_an_c.bmp'
+199.1666 	EXP 	twarze2: autoDraw = True
+202.1308 	EXP 	New trial (rep=2, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+202.1469 	EXP 	twarze2: autoDraw = False
+202.1469 	EXP 	twarze2: autoDraw = False
+202.1469 	EXP 	twarze2: image = '01F_DI_C.bmp'
+203.6637 	EXP 	twarze2: autoDraw = True
+206.6322 	EXP 	New trial (rep=2, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+206.6456 	EXP 	twarze2: autoDraw = False
+206.6456 	EXP 	twarze2: autoDraw = False
+206.6456 	EXP 	twarze2: image = '01F_FE_C.bmp'
+208.1615 	EXP 	twarze2: autoDraw = True
+211.1292 	EXP 	New trial (rep=2, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+211.1440 	EXP 	twarze2: autoDraw = False
+211.1440 	EXP 	twarze2: autoDraw = False
+211.1440 	EXP 	twarze2: image = '02f_an_c.bmp'
+212.6642 	EXP 	twarze2: autoDraw = True
+215.6268 	EXP 	New trial (rep=2, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+215.6468 	EXP 	twarze2: autoDraw = False
+215.6468 	EXP 	twarze2: autoDraw = False
+215.6468 	EXP 	twarze2: image = '02f_di_c.bmp'
+217.1586 	EXP 	twarze2: autoDraw = True
+220.1254 	EXP 	New trial (rep=2, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+220.1461 	EXP 	twarze2: autoDraw = False
+220.1461 	EXP 	twarze2: autoDraw = False
+220.1461 	EXP 	twarze2: image = '02F_FE_C.bmp'
+221.6572 	EXP 	twarze2: autoDraw = True
+224.6239 	EXP 	New trial (rep=3, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+224.6394 	EXP 	twarze2: autoDraw = False
+224.6394 	EXP 	twarze2: autoDraw = False
+224.6394 	EXP 	twarze2: image = '01f_an_c.bmp'
+226.1613 	EXP 	twarze2: autoDraw = True
+229.1220 	EXP 	New trial (rep=3, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+229.1388 	EXP 	twarze2: autoDraw = False
+229.1388 	EXP 	twarze2: autoDraw = False
+229.1388 	EXP 	twarze2: image = '01F_DI_C.bmp'
+230.6550 	EXP 	twarze2: autoDraw = True
+233.6273 	EXP 	New trial (rep=3, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+233.6365 	EXP 	twarze2: autoDraw = False
+233.6365 	EXP 	twarze2: autoDraw = False
+233.6365 	EXP 	twarze2: image = '01F_FE_C.bmp'
+235.1535 	EXP 	twarze2: autoDraw = True
+238.1209 	EXP 	New trial (rep=3, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+238.1358 	EXP 	twarze2: autoDraw = False
+238.1358 	EXP 	twarze2: autoDraw = False
+238.1358 	EXP 	twarze2: image = '02f_an_c.bmp'
+239.6517 	EXP 	twarze2: autoDraw = True
+242.6189 	EXP 	New trial (rep=3, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+242.6362 	EXP 	twarze2: autoDraw = False
+242.6362 	EXP 	twarze2: autoDraw = False
+242.6362 	EXP 	twarze2: image = '02f_di_c.bmp'
+244.1499 	EXP 	twarze2: autoDraw = True
+247.1166 	EXP 	New trial (rep=3, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+247.1342 	EXP 	twarze2: autoDraw = False
+247.1342 	EXP 	twarze2: autoDraw = False
+247.1342 	EXP 	twarze2: image = '02F_FE_C.bmp'
+248.6493 	EXP 	twarze2: autoDraw = True
+251.6147 	EXP 	New trial (rep=4, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+251.6343 	EXP 	twarze2: autoDraw = False
+251.6343 	EXP 	twarze2: autoDraw = False
+251.6343 	EXP 	twarze2: image = '01f_an_c.bmp'
+253.1496 	EXP 	twarze2: autoDraw = True
+256.1132 	EXP 	New trial (rep=4, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+256.1292 	EXP 	twarze2: autoDraw = False
+256.1292 	EXP 	twarze2: autoDraw = False
+256.1292 	EXP 	twarze2: image = '01F_DI_C.bmp'
+257.6460 	EXP 	twarze2: autoDraw = True
+260.6155 	EXP 	New trial (rep=4, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+260.6276 	EXP 	twarze2: autoDraw = False
+260.6276 	EXP 	twarze2: autoDraw = False
+260.6276 	EXP 	twarze2: image = '01F_FE_C.bmp'
+262.1440 	EXP 	twarze2: autoDraw = True
+265.1122 	EXP 	New trial (rep=4, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+265.1265 	EXP 	twarze2: autoDraw = False
+265.1265 	EXP 	twarze2: autoDraw = False
+265.1265 	EXP 	twarze2: image = '02f_an_c.bmp'
+266.6467 	EXP 	twarze2: autoDraw = True
+269.6093 	EXP 	New trial (rep=4, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+269.6288 	EXP 	twarze2: autoDraw = False
+269.6288 	EXP 	twarze2: autoDraw = False
+269.6288 	EXP 	twarze2: image = '02f_di_c.bmp'
+271.1464 	EXP 	twarze2: autoDraw = True
+274.1075 	EXP 	New trial (rep=4, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+274.1240 	EXP 	twarze2: autoDraw = False
+274.1240 	EXP 	twarze2: autoDraw = False
+274.1240 	EXP 	twarze2: image = '02F_FE_C.bmp'
+275.6406 	EXP 	twarze2: autoDraw = True
+278.6059 	EXP 	New trial (rep=5, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+278.6217 	EXP 	twarze2: autoDraw = False
+278.6217 	EXP 	twarze2: autoDraw = False
+278.6217 	EXP 	twarze2: image = '01f_an_c.bmp'
+280.1384 	EXP 	twarze2: autoDraw = True
+283.1047 	EXP 	New trial (rep=5, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+283.1204 	EXP 	twarze2: autoDraw = False
+283.1204 	EXP 	twarze2: autoDraw = False
+283.1204 	EXP 	twarze2: image = '01F_DI_C.bmp'
+284.6199 	EXP 	twarze2: autoDraw = True
+287.6040 	EXP 	New trial (rep=5, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+287.6189 	EXP 	twarze2: autoDraw = False
+287.6189 	EXP 	twarze2: autoDraw = False
+287.6189 	EXP 	twarze2: image = '01F_FE_C.bmp'
+289.1352 	EXP 	twarze2: autoDraw = True
+292.1025 	EXP 	New trial (rep=5, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+292.1198 	EXP 	twarze2: autoDraw = False
+292.1198 	EXP 	twarze2: autoDraw = False
+292.1198 	EXP 	twarze2: image = '02f_an_c.bmp'
+293.6336 	EXP 	twarze2: autoDraw = True
+296.6006 	EXP 	New trial (rep=5, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+296.6178 	EXP 	twarze2: autoDraw = False
+296.6178 	EXP 	twarze2: autoDraw = False
+296.6178 	EXP 	twarze2: image = '02f_di_c.bmp'
+298.1320 	EXP 	twarze2: autoDraw = True
+301.0983 	EXP 	New trial (rep=5, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+301.1147 	EXP 	twarze2: autoDraw = False
+301.1147 	EXP 	twarze2: autoDraw = False
+301.1147 	EXP 	twarze2: image = '02F_FE_C.bmp'
+302.6364 	EXP 	twarze2: autoDraw = True
+305.5985 	EXP 	New trial (rep=6, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+305.6135 	EXP 	twarze2: autoDraw = False
+305.6135 	EXP 	twarze2: autoDraw = False
+305.6135 	EXP 	twarze2: image = '01f_an_c.bmp'
+307.1294 	EXP 	twarze2: autoDraw = True
+310.1003 	EXP 	New trial (rep=6, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+310.1116 	EXP 	twarze2: autoDraw = False
+310.1116 	EXP 	twarze2: autoDraw = False
+310.1116 	EXP 	twarze2: image = '01F_DI_C.bmp'
+311.6277 	EXP 	twarze2: autoDraw = True
+314.5960 	EXP 	New trial (rep=6, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+314.6137 	EXP 	twarze2: autoDraw = False
+314.6137 	EXP 	twarze2: autoDraw = False
+314.6137 	EXP 	twarze2: image = '01F_FE_C.bmp'
+316.1291 	EXP 	twarze2: autoDraw = True
+319.0929 	EXP 	New trial (rep=6, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+319.1137 	EXP 	twarze2: autoDraw = False
+319.1137 	EXP 	twarze2: autoDraw = False
+319.1137 	EXP 	twarze2: image = '02f_an_c.bmp'
+320.6254 	EXP 	twarze2: autoDraw = True
+323.5925 	EXP 	New trial (rep=6, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+323.6128 	EXP 	twarze2: autoDraw = False
+323.6128 	EXP 	twarze2: autoDraw = False
+323.6128 	EXP 	twarze2: image = '02f_di_c.bmp'
+325.1266 	EXP 	twarze2: autoDraw = True
+328.0897 	EXP 	New trial (rep=6, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+328.1065 	EXP 	twarze2: autoDraw = False
+328.1065 	EXP 	twarze2: autoDraw = False
+328.1065 	EXP 	twarze2: image = '02F_FE_C.bmp'
+329.6224 	EXP 	twarze2: autoDraw = True
+332.5895 	EXP 	New trial (rep=7, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+332.6042 	EXP 	twarze2: autoDraw = False
+332.6042 	EXP 	twarze2: autoDraw = False
+332.6042 	EXP 	twarze2: image = '01f_an_c.bmp'
+334.1040 	EXP 	twarze2: autoDraw = True
+337.0876 	EXP 	New trial (rep=7, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+337.1089 	EXP 	twarze2: autoDraw = False
+337.1089 	EXP 	twarze2: autoDraw = False
+337.1089 	EXP 	twarze2: image = '01F_DI_C.bmp'
+338.6189 	EXP 	twarze2: autoDraw = True
+341.5862 	EXP 	New trial (rep=7, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+341.6018 	EXP 	twarze2: autoDraw = False
+341.6018 	EXP 	twarze2: autoDraw = False
+341.6018 	EXP 	twarze2: image = '01F_FE_C.bmp'
+343.1175 	EXP 	twarze2: autoDraw = True
+346.0840 	EXP 	New trial (rep=7, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+346.1003 	EXP 	twarze2: autoDraw = False
+346.1003 	EXP 	twarze2: autoDraw = False
+346.1003 	EXP 	twarze2: image = '02f_an_c.bmp'
+347.6172 	EXP 	twarze2: autoDraw = True
+350.5824 	EXP 	New trial (rep=7, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+350.5983 	EXP 	twarze2: autoDraw = False
+350.5983 	EXP 	twarze2: autoDraw = False
+350.5983 	EXP 	twarze2: image = '02f_di_c.bmp'
+352.1153 	EXP 	twarze2: autoDraw = True
+355.0862 	EXP 	New trial (rep=7, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+355.0969 	EXP 	twarze2: autoDraw = False
+355.0969 	EXP 	twarze2: autoDraw = False
+355.0969 	EXP 	twarze2: image = '02F_FE_C.bmp'
+356.6130 	EXP 	twarze2: autoDraw = True
+359.5807 	EXP 	New trial (rep=8, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+359.5954 	EXP 	twarze2: autoDraw = False
+359.5954 	EXP 	twarze2: autoDraw = False
+359.5954 	EXP 	twarze2: image = '01f_an_c.bmp'
+361.1115 	EXP 	twarze2: autoDraw = True
+364.0783 	EXP 	New trial (rep=8, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+364.0979 	EXP 	twarze2: autoDraw = False
+364.0979 	EXP 	twarze2: autoDraw = False
+364.0979 	EXP 	twarze2: image = '01F_DI_C.bmp'
+365.6101 	EXP 	twarze2: autoDraw = True
+368.5767 	EXP 	New trial (rep=8, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+368.5929 	EXP 	twarze2: autoDraw = False
+368.5929 	EXP 	twarze2: autoDraw = False
+368.5929 	EXP 	twarze2: image = '01F_FE_C.bmp'
+370.1108 	EXP 	twarze2: autoDraw = True
+373.0750 	EXP 	New trial (rep=8, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+373.0909 	EXP 	twarze2: autoDraw = False
+373.0909 	EXP 	twarze2: autoDraw = False
+373.0909 	EXP 	twarze2: image = '02f_an_c.bmp'
+374.6077 	EXP 	twarze2: autoDraw = True
+377.5780 	EXP 	New trial (rep=8, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+377.5894 	EXP 	twarze2: autoDraw = False
+377.5894 	EXP 	twarze2: autoDraw = False
+377.5894 	EXP 	twarze2: image = '02f_di_c.bmp'
+379.1058 	EXP 	twarze2: autoDraw = True
+382.0760 	EXP 	New trial (rep=8, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+382.0881 	EXP 	twarze2: autoDraw = False
+382.0881 	EXP 	twarze2: autoDraw = False
+382.0881 	EXP 	twarze2: image = '02F_FE_C.bmp'
+383.6043 	EXP 	twarze2: autoDraw = True
+386.5706 	EXP 	New trial (rep=9, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+386.5883 	EXP 	twarze2: autoDraw = False
+386.5883 	EXP 	twarze2: autoDraw = False
+386.5883 	EXP 	twarze2: image = '01f_an_c.bmp'
+388.1077 	EXP 	twarze2: autoDraw = True
+391.0694 	EXP 	New trial (rep=9, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+391.0863 	EXP 	twarze2: autoDraw = False
+391.0863 	EXP 	twarze2: autoDraw = False
+391.0863 	EXP 	twarze2: image = '01F_DI_C.bmp'
+392.6022 	EXP 	twarze2: autoDraw = True
+395.5677 	EXP 	New trial (rep=9, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+395.5836 	EXP 	twarze2: autoDraw = False
+395.5836 	EXP 	twarze2: autoDraw = False
+395.5836 	EXP 	twarze2: image = '01F_FE_C.bmp'
+397.1051 	EXP 	twarze2: autoDraw = True
+400.0668 	EXP 	New trial (rep=9, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+400.0821 	EXP 	twarze2: autoDraw = False
+400.0821 	EXP 	twarze2: autoDraw = False
+400.0821 	EXP 	twarze2: image = '02f_an_c.bmp'
+401.5983 	EXP 	twarze2: autoDraw = True
+404.5654 	EXP 	New trial (rep=9, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+404.5806 	EXP 	twarze2: autoDraw = False
+404.5806 	EXP 	twarze2: autoDraw = False
+404.5806 	EXP 	twarze2: image = '02f_di_c.bmp'
+406.0803 	EXP 	twarze2: autoDraw = True
+409.0643 	EXP 	New trial (rep=9, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+409.0805 	EXP 	twarze2: autoDraw = False
+409.0805 	EXP 	twarze2: autoDraw = False
+409.0805 	EXP 	twarze2: image = '02F_FE_C.bmp'
+410.6000 	EXP 	twarze2: autoDraw = True
+413.5623 	EXP 	New trial (rep=10, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+413.5831 	EXP 	twarze2: autoDraw = False
+413.5831 	EXP 	twarze2: autoDraw = False
+413.5831 	EXP 	twarze2: image = '01f_an_c.bmp'
+415.0954 	EXP 	twarze2: autoDraw = True
+418.0604 	EXP 	New trial (rep=10, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+418.0762 	EXP 	twarze2: autoDraw = False
+418.0762 	EXP 	twarze2: autoDraw = False
+418.0762 	EXP 	twarze2: image = '01F_DI_C.bmp'
+419.5953 	EXP 	twarze2: autoDraw = True
+422.5587 	EXP 	New trial (rep=10, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+422.5748 	EXP 	twarze2: autoDraw = False
+422.5748 	EXP 	twarze2: autoDraw = False
+422.5748 	EXP 	twarze2: image = '01F_FE_C.bmp'
+424.0915 	EXP 	twarze2: autoDraw = True
+427.0580 	EXP 	New trial (rep=10, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+427.0759 	EXP 	twarze2: autoDraw = False
+427.0759 	EXP 	twarze2: autoDraw = False
+427.0759 	EXP 	twarze2: image = '02f_an_c.bmp'
+428.5895 	EXP 	twarze2: autoDraw = True
+431.5573 	EXP 	New trial (rep=10, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+431.5752 	EXP 	twarze2: autoDraw = False
+431.5752 	EXP 	twarze2: autoDraw = False
+431.5752 	EXP 	twarze2: image = '02f_di_c.bmp'
+433.0881 	EXP 	twarze2: autoDraw = True
+436.0553 	EXP 	New trial (rep=10, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+436.0785 	EXP 	twarze2: autoDraw = False
+436.0785 	EXP 	twarze2: autoDraw = False
+436.0785 	EXP 	twarze2: image = '02F_FE_C.bmp'
+437.5865 	EXP 	twarze2: autoDraw = True
+440.5544 	EXP 	New trial (rep=11, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+440.5689 	EXP 	twarze2: autoDraw = False
+440.5689 	EXP 	twarze2: autoDraw = False
+440.5689 	EXP 	twarze2: image = '01f_an_c.bmp'
+442.0875 	EXP 	twarze2: autoDraw = True
+445.0348 	DATA 	Mouse: Left button down, pos=(249,147)
+445.0515 	EXP 	New trial (rep=11, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+445.0673 	EXP 	twarze2: autoDraw = False
+445.0673 	EXP 	twarze2: autoDraw = False
+445.0673 	EXP 	twarze2: image = '01F_DI_C.bmp'
+445.1175 	DATA 	Mouse:  Left button up, pos=(0,1)
+446.5853 	EXP 	twarze2: autoDraw = True
+449.5562 	EXP 	New trial (rep=11, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+449.5659 	EXP 	twarze2: autoDraw = False
+449.5659 	EXP 	twarze2: autoDraw = False
+449.5659 	EXP 	twarze2: image = '01F_FE_C.bmp'
+451.0829 	EXP 	twarze2: autoDraw = True
+454.0491 	EXP 	New trial (rep=11, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+454.0720 	EXP 	twarze2: autoDraw = False
+454.0720 	EXP 	twarze2: autoDraw = False
+454.0720 	EXP 	twarze2: image = '02f_an_c.bmp'
+455.5806 	EXP 	twarze2: autoDraw = True
+458.5473 	EXP 	New trial (rep=11, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+458.5727 	EXP 	twarze2: autoDraw = False
+458.5727 	EXP 	twarze2: autoDraw = False
+458.5727 	EXP 	twarze2: image = '02f_di_c.bmp'
+460.0800 	EXP 	twarze2: autoDraw = True
+463.0455 	EXP 	New trial (rep=11, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+463.0615 	EXP 	twarze2: autoDraw = False
+463.0615 	EXP 	twarze2: autoDraw = False
+463.0615 	EXP 	twarze2: image = '02F_FE_C.bmp'
+464.5835 	EXP 	twarze2: autoDraw = True
+467.5450 	EXP 	New trial (rep=12, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+467.5604 	EXP 	twarze2: autoDraw = False
+467.5604 	EXP 	twarze2: autoDraw = False
+467.5604 	EXP 	twarze2: image = '01f_an_c.bmp'
+469.0763 	EXP 	twarze2: autoDraw = True
+472.0438 	EXP 	New trial (rep=12, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+472.0598 	EXP 	twarze2: autoDraw = False
+472.0598 	EXP 	twarze2: autoDraw = False
+472.0598 	EXP 	twarze2: image = '01F_DI_C.bmp'
+473.5766 	EXP 	twarze2: autoDraw = True
+476.5421 	EXP 	New trial (rep=12, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+476.5634 	EXP 	twarze2: autoDraw = False
+476.5634 	EXP 	twarze2: autoDraw = False
+476.5634 	EXP 	twarze2: image = '01F_FE_C.bmp'
+478.0747 	EXP 	twarze2: autoDraw = True
+481.0398 	EXP 	New trial (rep=12, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+481.0602 	EXP 	twarze2: autoDraw = False
+481.0602 	EXP 	twarze2: autoDraw = False
+481.0602 	EXP 	twarze2: image = '02f_an_c.bmp'
+482.5769 	EXP 	twarze2: autoDraw = True
+485.5382 	EXP 	New trial (rep=12, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+485.5543 	EXP 	twarze2: autoDraw = False
+485.5543 	EXP 	twarze2: autoDraw = False
+485.5543 	EXP 	twarze2: image = '02f_di_c.bmp'
+487.0778 	EXP 	twarze2: autoDraw = True
+490.0295 	EXP 	New trial (rep=12, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+490.0363 	EXP 	twarze2: autoDraw = False
+490.0363 	EXP 	twarze2: autoDraw = False
+490.0363 	EXP 	twarze2: image = '02F_FE_C.bmp'
+491.5523 	EXP 	twarze2: autoDraw = True
+494.5188 	EXP 	New trial (rep=13, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+494.5445 	EXP 	twarze2: autoDraw = False
+494.5445 	EXP 	twarze2: autoDraw = False
+494.5445 	EXP 	twarze2: image = '01f_an_c.bmp'
+496.0514 	EXP 	twarze2: autoDraw = True
+499.0170 	EXP 	New trial (rep=13, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+499.0331 	EXP 	twarze2: autoDraw = False
+499.0331 	EXP 	twarze2: autoDraw = False
+499.0331 	EXP 	twarze2: image = '01F_DI_C.bmp'
+500.5545 	EXP 	twarze2: autoDraw = True
+503.5154 	EXP 	New trial (rep=13, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+503.5315 	EXP 	twarze2: autoDraw = False
+503.5315 	EXP 	twarze2: autoDraw = False
+503.5315 	EXP 	twarze2: image = '01F_FE_C.bmp'
+505.0482 	EXP 	twarze2: autoDraw = True
+508.0198 	EXP 	New trial (rep=13, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+508.0313 	EXP 	twarze2: autoDraw = False
+508.0313 	EXP 	twarze2: autoDraw = False
+508.0313 	EXP 	twarze2: image = '02f_an_c.bmp'
+509.5474 	EXP 	twarze2: autoDraw = True
+512.5134 	EXP 	New trial (rep=13, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+512.5293 	EXP 	twarze2: autoDraw = False
+512.5293 	EXP 	twarze2: autoDraw = False
+512.5293 	EXP 	twarze2: image = '02f_di_c.bmp'
+514.0449 	EXP 	twarze2: autoDraw = True
+517.0114 	EXP 	New trial (rep=13, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+517.0276 	EXP 	twarze2: autoDraw = False
+517.0276 	EXP 	twarze2: autoDraw = False
+517.0276 	EXP 	twarze2: image = '02F_FE_C.bmp'
+518.5437 	EXP 	twarze2: autoDraw = True
+521.5098 	EXP 	New trial (rep=14, index=0): OrderedDict([('twarz', '01f_an_c.bmp')])
+521.5260 	EXP 	twarze2: autoDraw = False
+521.5260 	EXP 	twarze2: autoDraw = False
+521.5260 	EXP 	twarze2: image = '01f_an_c.bmp'
+523.0423 	EXP 	twarze2: autoDraw = True
+526.0084 	EXP 	New trial (rep=14, index=1): OrderedDict([('twarz', '01F_DI_C.bmp')])
+526.0256 	EXP 	twarze2: autoDraw = False
+526.0256 	EXP 	twarze2: autoDraw = False
+526.0256 	EXP 	twarze2: image = '01F_DI_C.bmp'
+527.5238 	EXP 	twarze2: autoDraw = True
+530.5080 	EXP 	New trial (rep=14, index=2): OrderedDict([('twarz', '01F_FE_C.bmp')])
+530.5236 	EXP 	twarze2: autoDraw = False
+530.5236 	EXP 	twarze2: autoDraw = False
+530.5236 	EXP 	twarze2: image = '01F_FE_C.bmp'
+532.0394 	EXP 	twarze2: autoDraw = True
+535.0073 	EXP 	New trial (rep=14, index=3): OrderedDict([('twarz', '02f_an_c.bmp')])
+535.0380 	EXP 	twarze2: autoDraw = False
+535.0380 	EXP 	twarze2: autoDraw = False
+535.0380 	EXP 	twarze2: image = '02f_an_c.bmp'
+536.5377 	EXP 	twarze2: autoDraw = True
+539.5047 	EXP 	New trial (rep=14, index=4): OrderedDict([('twarz', '02f_di_c.bmp')])
+539.5209 	EXP 	twarze2: autoDraw = False
+539.5209 	EXP 	twarze2: autoDraw = False
+539.5209 	EXP 	twarze2: image = '02f_di_c.bmp'
+541.0360 	EXP 	twarze2: autoDraw = True
+544.0023 	EXP 	New trial (rep=14, index=5): OrderedDict([('twarz', '02F_FE_C.bmp')])
+544.0183 	EXP 	twarze2: autoDraw = False
+544.0183 	EXP 	twarze2: autoDraw = False
+544.0183 	EXP 	twarze2: image = '02F_FE_C.bmp'
+545.5422 	EXP 	twarze2: autoDraw = True
+548.5169 	EXP 	twarze2: autoDraw = False
+548.5169 	EXP 	twarze2: autoDraw = False
+548.5169 	EXP 	end: autoDraw = True
+552.7997 	DATA 	Keypress: space
+552.8327 	EXP 	window1: mouseVisible = True
