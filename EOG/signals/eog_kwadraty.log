@@ -1,0 +1,496 @@
+4.3137 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([-1., -1., -1.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f474ab588d0>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f474ab3c978>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.3137 	EXP 	window1: recordFrameIntervals = False
+4.4789 	EXP 	window1: recordFrameIntervals = True
+4.6624 	EXP 	window1: recordFrameIntervals = False
+4.7373 	EXP 	Created Instrukcja = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Instrukcja', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+4.7437 	EXP 	Created polygon = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-1.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='polygon', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='norm', vertices=ndarray(...), win=Window(...))
+4.7449 	EXP 	Created polygon_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-2.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='polygon_2', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='norm', vertices=ndarray(...), win=Window(...))
+4.7460 	EXP 	Created polygon_3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-3.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='polygon_3', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='norm', vertices=ndarray(...), win=Window(...))
+4.7466 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='', units='norm', win=Window(...), wrapWidth=1)
+4.7527 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Dziękujemy za udział w badaniu.', units='norm', win=Window(...), wrapWidth=1)
+4.7585 	EXP 	Instrukcja: autoDraw = True
+6.7472 	EXP 	Created sequence: random, trialTypes=1, nReps=10, seed=None
+6.7477 	EXP 	New trial (rep=0, index=0): None
+6.7480 	EXP 	Created sequence: fullRandom, trialTypes=1, nReps=4, seed=None
+6.7483 	EXP 	New trial (rep=0, index=0): None
+6.7628 	EXP 	Instrukcja: autoDraw = False
+6.7628 	EXP 	Instrukcja: autoDraw = False
+6.7628 	EXP 	polygon_2: pos = array([-0.8,  0. ])
+6.7628 	EXP 	polygon: autoDraw = True
+7.0629 	EXP 	polygon: autoDraw = False
+7.0796 	EXP 	polygon_2: autoDraw = True
+7.3630 	EXP 	polygon_2: autoDraw = False
+7.3797 	EXP 	polygon_3: autoDraw = True
+7.9473 	EXP 	New trial (rep=1, index=0): None
+7.9634 	EXP 	polygon_3: autoDraw = False
+7.9634 	EXP 	polygon: autoDraw = False
+7.9634 	EXP 	polygon_2: autoDraw = False
+7.9634 	EXP 	polygon_3: autoDraw = False
+7.9634 	EXP 	polygon_2: pos = array([ 0. , -0.8])
+7.9634 	EXP 	polygon: autoDraw = True
+8.2633 	EXP 	polygon: autoDraw = False
+8.2851 	EXP 	polygon_2: autoDraw = True
+8.5634 	EXP 	polygon_2: autoDraw = False
+8.5801 	EXP 	polygon_3: autoDraw = True
+9.1477 	EXP 	New trial (rep=2, index=0): None
+9.1635 	EXP 	polygon_3: autoDraw = False
+9.1635 	EXP 	polygon: autoDraw = False
+9.1635 	EXP 	polygon_2: autoDraw = False
+9.1635 	EXP 	polygon_3: autoDraw = False
+9.1635 	EXP 	polygon_2: pos = array([0.8, 0. ])
+9.1635 	EXP 	polygon: autoDraw = True
+9.4648 	EXP 	polygon: autoDraw = False
+9.4803 	EXP 	polygon_2: autoDraw = True
+9.7646 	EXP 	polygon_2: autoDraw = False
+9.7841 	EXP 	polygon_3: autoDraw = True
+10.3482 	EXP 	New trial (rep=3, index=0): None
+10.3649 	EXP 	polygon_3: autoDraw = False
+10.3649 	EXP 	polygon: autoDraw = False
+10.3649 	EXP 	polygon_2: autoDraw = False
+10.3649 	EXP 	polygon_3: autoDraw = False
+10.3649 	EXP 	polygon_2: pos = array([0. , 0.8])
+10.3649 	EXP 	polygon: autoDraw = True
+10.6679 	EXP 	polygon: autoDraw = False
+10.6807 	EXP 	polygon_2: autoDraw = True
+10.9682 	EXP 	polygon_2: autoDraw = False
+10.9808 	EXP 	polygon_3: autoDraw = True
+11.5647 	EXP 	polygon_3: autoDraw = False
+11.5647 	EXP 	polygon: autoDraw = False
+11.5647 	EXP 	polygon_2: autoDraw = False
+11.5647 	EXP 	polygon_3: autoDraw = False
+11.5647 	EXP 	text: autoDraw = True
+16.5499 	EXP 	New trial (rep=1, index=0): None
+16.5502 	EXP 	Created sequence: fullRandom, trialTypes=1, nReps=4, seed=None
+16.5505 	EXP 	New trial (rep=0, index=0): None
+16.5660 	EXP 	text: autoDraw = False
+16.5660 	EXP 	text: autoDraw = False
+16.5660 	EXP 	polygon_2: pos = array([-0.8,  0. ])
+16.5660 	EXP 	polygon: autoDraw = True
+16.8660 	EXP 	polygon: autoDraw = False
+16.8850 	EXP 	polygon_2: autoDraw = True
+17.1660 	EXP 	polygon_2: autoDraw = False
+17.1828 	EXP 	polygon_3: autoDraw = True
+17.7504 	EXP 	New trial (rep=1, index=0): None
+17.7662 	EXP 	polygon_3: autoDraw = False
+17.7662 	EXP 	polygon: autoDraw = False
+17.7662 	EXP 	polygon_2: autoDraw = False
+17.7662 	EXP 	polygon_3: autoDraw = False
+17.7662 	EXP 	polygon_2: pos = array([0.8, 0. ])
+17.7662 	EXP 	polygon: autoDraw = True
+18.0663 	EXP 	polygon: autoDraw = False
+18.0831 	EXP 	polygon_2: autoDraw = True
+18.3665 	EXP 	polygon_2: autoDraw = False
+18.3859 	EXP 	polygon_3: autoDraw = True
+18.9508 	EXP 	New trial (rep=2, index=0): None
+18.9666 	EXP 	polygon_3: autoDraw = False
+18.9666 	EXP 	polygon: autoDraw = False
+18.9666 	EXP 	polygon_2: autoDraw = False
+18.9666 	EXP 	polygon_3: autoDraw = False
+18.9666 	EXP 	polygon_2: pos = array([0.8, 0. ])
+18.9666 	EXP 	polygon: autoDraw = True
+19.2667 	EXP 	polygon: autoDraw = False
+19.2905 	EXP 	polygon_2: autoDraw = True
+19.5668 	EXP 	polygon_2: autoDraw = False
+19.5859 	EXP 	polygon_3: autoDraw = True
+20.1512 	EXP 	New trial (rep=3, index=0): None
+20.1670 	EXP 	polygon_3: autoDraw = False
+20.1670 	EXP 	polygon: autoDraw = False
+20.1670 	EXP 	polygon_2: autoDraw = False
+20.1670 	EXP 	polygon_3: autoDraw = False
+20.1670 	EXP 	polygon_2: pos = array([0.8, 0. ])
+20.1670 	EXP 	polygon: autoDraw = True
+20.4671 	EXP 	polygon: autoDraw = False
+20.4839 	EXP 	polygon_2: autoDraw = True
+20.7672 	EXP 	polygon_2: autoDraw = False
+20.7882 	EXP 	polygon_3: autoDraw = True
+21.3674 	EXP 	polygon_3: autoDraw = False
+21.3674 	EXP 	polygon: autoDraw = False
+21.3674 	EXP 	polygon_2: autoDraw = False
+21.3674 	EXP 	polygon_3: autoDraw = False
+21.3674 	EXP 	text: autoDraw = True
+26.3540 	EXP 	New trial (rep=2, index=0): None
+26.3542 	EXP 	Created sequence: fullRandom, trialTypes=1, nReps=4, seed=None
+26.3544 	EXP 	New trial (rep=0, index=0): None
+26.3696 	EXP 	text: autoDraw = False
+26.3696 	EXP 	polygon_2: pos = array([0.8, 0. ])
+26.3696 	EXP 	polygon: autoDraw = True
+26.6690 	EXP 	polygon: autoDraw = False
+26.6690 	EXP 	polygon_2: autoDraw = True
+26.9691 	EXP 	polygon_2: autoDraw = False
+26.9858 	EXP 	polygon_3: autoDraw = True
+27.5560 	EXP 	New trial (rep=1, index=0): None
+27.5693 	EXP 	polygon: autoDraw = False
+27.5693 	EXP 	polygon_2: autoDraw = False
+27.5693 	EXP 	polygon_3: autoDraw = False
+27.5693 	EXP 	polygon_2: pos = array([0. , 0.8])
+27.5693 	EXP 	polygon: autoDraw = True
+27.8694 	EXP 	polygon: autoDraw = False
+27.8694 	EXP 	polygon_2: autoDraw = True
+28.1695 	EXP 	polygon_2: autoDraw = False
+28.1695 	EXP 	polygon_3: autoDraw = True
+28.7561 	EXP 	New trial (rep=2, index=0): None
+28.7696 	EXP 	polygon: autoDraw = False
+28.7696 	EXP 	polygon_2: autoDraw = False
+28.7696 	EXP 	polygon_3: autoDraw = False
+28.7696 	EXP 	polygon_2: pos = array([ 0. , -0.8])
+28.7696 	EXP 	polygon: autoDraw = True
+29.0698 	EXP 	polygon: autoDraw = False
+29.0865 	EXP 	polygon_2: autoDraw = True
+29.3699 	EXP 	polygon_2: autoDraw = False
+29.3866 	EXP 	polygon_3: autoDraw = True
+29.9548 	EXP 	New trial (rep=3, index=0): None
+29.9700 	EXP 	polygon: autoDraw = False
+29.9700 	EXP 	polygon_2: autoDraw = False
+29.9700 	EXP 	polygon_3: autoDraw = False
+29.9700 	EXP 	polygon_2: pos = array([0. , 0.8])
+29.9700 	EXP 	polygon: autoDraw = True
+30.2701 	EXP 	polygon: autoDraw = False
+30.2868 	EXP 	polygon_2: autoDraw = True
+30.5702 	EXP 	polygon_2: autoDraw = False
+30.5869 	EXP 	polygon_3: autoDraw = True
+31.1704 	EXP 	polygon: autoDraw = False
+31.1704 	EXP 	polygon_2: autoDraw = False
+31.1704 	EXP 	polygon_3: autoDraw = False
+31.1704 	EXP 	text: autoDraw = True
+36.1560 	EXP 	New trial (rep=3, index=0): None
+36.1564 	EXP 	Created sequence: fullRandom, trialTypes=1, nReps=4, seed=None
+36.1568 	EXP 	New trial (rep=0, index=0): None
+36.1746 	EXP 	text: autoDraw = False
+36.1746 	EXP 	polygon_2: pos = array([ 0. , -0.8])
+36.1746 	EXP 	polygon: autoDraw = True
+36.4748 	EXP 	polygon: autoDraw = False
+36.4888 	EXP 	polygon_2: autoDraw = True
+36.7742 	EXP 	polygon_2: autoDraw = False
+36.7889 	EXP 	polygon_3: autoDraw = True
+37.3567 	EXP 	New trial (rep=1, index=0): None
+37.3729 	EXP 	polygon: autoDraw = False
+37.3729 	EXP 	polygon_2: autoDraw = False
+37.3729 	EXP 	polygon_3: autoDraw = False
+37.3729 	EXP 	polygon_2: pos = array([-0.8,  0. ])
+37.3729 	EXP 	polygon: autoDraw = True
+37.6765 	EXP 	polygon: autoDraw = False
+37.6892 	EXP 	polygon_2: autoDraw = True
+37.9763 	EXP 	polygon_2: autoDraw = False
+37.9892 	EXP 	polygon_3: autoDraw = True
+38.5569 	EXP 	New trial (rep=2, index=0): None
+38.5742 	EXP 	polygon: autoDraw = False
+38.5742 	EXP 	polygon_2: autoDraw = False
+38.5742 	EXP 	polygon_3: autoDraw = False
+38.5742 	EXP 	polygon_2: pos = array([ 0. , -0.8])
+38.5742 	EXP 	polygon: autoDraw = True
+38.8729 	EXP 	polygon: autoDraw = False
+38.8896 	EXP 	polygon_2: autoDraw = True
+39.1752 	EXP 	polygon_2: autoDraw = False
+39.1896 	EXP 	polygon_3: autoDraw = True
+39.7573 	EXP 	New trial (rep=3, index=0): None
+39.7731 	EXP 	polygon: autoDraw = False
+39.7731 	EXP 	polygon_2: autoDraw = False
+39.7731 	EXP 	polygon_3: autoDraw = False
+39.7731 	EXP 	polygon_2: pos = array([-0.8,  0. ])
+39.7731 	EXP 	polygon: autoDraw = True
+40.0737 	EXP 	polygon: autoDraw = False
+40.0925 	EXP 	polygon_2: autoDraw = True
+40.3733 	EXP 	polygon_2: autoDraw = False
+40.3899 	EXP 	polygon_3: autoDraw = True
+40.9739 	EXP 	polygon: autoDraw = False
+40.9739 	EXP 	polygon_2: autoDraw = False
+40.9739 	EXP 	polygon_3: autoDraw = False
+40.9739 	EXP 	text: autoDraw = True
+45.9467 	EXP 	New trial (rep=4, index=0): None
+45.9470 	EXP 	Created sequence: fullRandom, trialTypes=1, nReps=4, seed=None
+45.9473 	EXP 	New trial (rep=0, index=0): None
+45.9590 	EXP 	text: autoDraw = False
+45.9590 	EXP 	text: autoDraw = False
+45.9590 	EXP 	polygon_2: pos = array([-0.8,  0. ])
+45.9590 	EXP 	polygon: autoDraw = True
+46.2584 	EXP 	polygon: autoDraw = False
+46.2752 	EXP 	polygon_2: autoDraw = True
+46.5586 	EXP 	polygon_2: autoDraw = False
+46.5753 	EXP 	polygon_3: autoDraw = True
+47.1428 	EXP 	New trial (rep=1, index=0): None
+47.1587 	EXP 	polygon_3: autoDraw = False
+47.1587 	EXP 	polygon: autoDraw = False
+47.1587 	EXP 	polygon_2: autoDraw = False
+47.1587 	EXP 	polygon_3: autoDraw = False
+47.1587 	EXP 	polygon_2: pos = array([0. , 0.8])
+47.1587 	EXP 	polygon: autoDraw = True
+47.4589 	EXP 	polygon: autoDraw = False
+47.4755 	EXP 	polygon_2: autoDraw = True
+47.7589 	EXP 	polygon_2: autoDraw = False
+47.7761 	EXP 	polygon_3: autoDraw = True
+48.3440 	EXP 	New trial (rep=2, index=0): None
+48.3591 	EXP 	polygon_3: autoDraw = False
+48.3591 	EXP 	polygon: autoDraw = False
+48.3591 	EXP 	polygon_2: autoDraw = False
+48.3591 	EXP 	polygon_3: autoDraw = False
+48.3591 	EXP 	polygon_2: pos = array([-0.8,  0. ])
+48.3591 	EXP 	polygon: autoDraw = True
+48.6592 	EXP 	polygon: autoDraw = False
+48.6759 	EXP 	polygon_2: autoDraw = True
+48.9593 	EXP 	polygon_2: autoDraw = False
+48.9760 	EXP 	polygon_3: autoDraw = True
+49.5454 	EXP 	New trial (rep=3, index=0): None
+49.5595 	EXP 	polygon_3: autoDraw = False
+49.5595 	EXP 	polygon: autoDraw = False
+49.5595 	EXP 	polygon_2: autoDraw = False
+49.5595 	EXP 	polygon_3: autoDraw = False
+49.5595 	EXP 	polygon_2: pos = array([ 0. , -0.8])
+49.5595 	EXP 	polygon: autoDraw = True
+49.8596 	EXP 	polygon: autoDraw = False
+49.8763 	EXP 	polygon_2: autoDraw = True
+50.1596 	EXP 	polygon_2: autoDraw = False
+50.1768 	EXP 	polygon_3: autoDraw = True
+50.7599 	EXP 	polygon_3: autoDraw = False
+50.7599 	EXP 	polygon: autoDraw = False
+50.7599 	EXP 	polygon_2: autoDraw = False
+50.7599 	EXP 	polygon_3: autoDraw = False
+50.7599 	EXP 	text: autoDraw = True
+55.7457 	EXP 	New trial (rep=5, index=0): None
+55.7462 	EXP 	Created sequence: fullRandom, trialTypes=1, nReps=4, seed=None
+55.7466 	EXP 	New trial (rep=0, index=0): None
+55.7614 	EXP 	text: autoDraw = False
+55.7614 	EXP 	text: autoDraw = False
+55.7614 	EXP 	polygon_2: pos = array([0. , 0.8])
+55.7614 	EXP 	polygon: autoDraw = True
+56.0615 	EXP 	polygon: autoDraw = False
+56.0782 	EXP 	polygon_2: autoDraw = True
+56.3616 	EXP 	polygon_2: autoDraw = False
+56.3783 	EXP 	polygon_3: autoDraw = True
+56.9463 	EXP 	New trial (rep=1, index=0): None
+56.9618 	EXP 	polygon_3: autoDraw = False
+56.9618 	EXP 	polygon: autoDraw = False
+56.9618 	EXP 	polygon_2: autoDraw = False
+56.9618 	EXP 	polygon_3: autoDraw = False
+56.9618 	EXP 	polygon_2: pos = array([0. , 0.8])
+56.9618 	EXP 	polygon: autoDraw = True
+57.2619 	EXP 	polygon: autoDraw = False
+57.2820 	EXP 	polygon_2: autoDraw = True
+57.5620 	EXP 	polygon_2: autoDraw = False
+57.5787 	EXP 	polygon_3: autoDraw = True
+58.1468 	EXP 	New trial (rep=2, index=0): None
+58.1624 	EXP 	polygon_3: autoDraw = False
+58.1624 	EXP 	polygon: autoDraw = False
+58.1624 	EXP 	polygon_2: autoDraw = False
+58.1624 	EXP 	polygon_3: autoDraw = False
+58.1624 	EXP 	polygon_2: pos = array([0.8, 0. ])
+58.1624 	EXP 	polygon: autoDraw = True
+58.4669 	EXP 	polygon: autoDraw = False
+58.4790 	EXP 	polygon_2: autoDraw = True
+58.7670 	EXP 	polygon_2: autoDraw = False
+58.7814 	EXP 	polygon_3: autoDraw = True
+59.3467 	EXP 	New trial (rep=3, index=0): None
+59.3648 	EXP 	polygon_3: autoDraw = False
+59.3648 	EXP 	polygon: autoDraw = False
+59.3648 	EXP 	polygon_2: autoDraw = False
+59.3648 	EXP 	polygon_3: autoDraw = False
+59.3648 	EXP 	polygon_2: pos = array([0.8, 0. ])
+59.3648 	EXP 	polygon: autoDraw = True
+59.6627 	EXP 	polygon: autoDraw = False
+59.6797 	EXP 	polygon_2: autoDraw = True
+59.9628 	EXP 	polygon_2: autoDraw = False
+59.9794 	EXP 	polygon_3: autoDraw = True
+60.5630 	EXP 	polygon_3: autoDraw = False
+60.5630 	EXP 	polygon: autoDraw = False
+60.5630 	EXP 	polygon_2: autoDraw = False
+60.5630 	EXP 	polygon_3: autoDraw = False
+60.5630 	EXP 	text: autoDraw = True
+65.5485 	EXP 	New trial (rep=6, index=0): None
+65.5488 	EXP 	Created sequence: fullRandom, trialTypes=1, nReps=4, seed=None
+65.5491 	EXP 	New trial (rep=0, index=0): None
+65.5645 	EXP 	text: autoDraw = False
+65.5645 	EXP 	text: autoDraw = False
+65.5645 	EXP 	polygon_2: pos = array([ 0. , -0.8])
+65.5645 	EXP 	polygon: autoDraw = True
+65.8646 	EXP 	polygon: autoDraw = False
+65.8812 	EXP 	polygon_2: autoDraw = True
+66.1647 	EXP 	polygon_2: autoDraw = False
+66.1843 	EXP 	polygon_3: autoDraw = True
+66.7487 	EXP 	New trial (rep=1, index=0): None
+66.7649 	EXP 	polygon_3: autoDraw = False
+66.7649 	EXP 	polygon: autoDraw = False
+66.7649 	EXP 	polygon_2: autoDraw = False
+66.7649 	EXP 	polygon_3: autoDraw = False
+66.7649 	EXP 	polygon_2: pos = array([ 0. , -0.8])
+66.7649 	EXP 	polygon: autoDraw = True
+67.0649 	EXP 	polygon: autoDraw = False
+67.0817 	EXP 	polygon_2: autoDraw = True
+67.3651 	EXP 	polygon_2: autoDraw = False
+67.3822 	EXP 	polygon_3: autoDraw = True
+67.9374 	EXP 	New trial (rep=2, index=0): None
+67.9486 	EXP 	polygon_3: autoDraw = False
+67.9486 	EXP 	polygon: autoDraw = False
+67.9486 	EXP 	polygon_2: autoDraw = False
+67.9486 	EXP 	polygon_3: autoDraw = False
+67.9486 	EXP 	polygon_2: pos = array([0. , 0.8])
+67.9486 	EXP 	polygon: autoDraw = True
+68.2486 	EXP 	polygon: autoDraw = False
+68.2653 	EXP 	polygon_2: autoDraw = True
+68.5487 	EXP 	polygon_2: autoDraw = False
+68.5654 	EXP 	polygon_3: autoDraw = True
+69.1334 	EXP 	New trial (rep=3, index=0): None
+69.1490 	EXP 	polygon_3: autoDraw = False
+69.1490 	EXP 	polygon: autoDraw = False
+69.1490 	EXP 	polygon_2: autoDraw = False
+69.1490 	EXP 	polygon_3: autoDraw = False
+69.1490 	EXP 	polygon_2: pos = array([0.8, 0. ])
+69.1490 	EXP 	polygon: autoDraw = True
+69.4490 	EXP 	polygon: autoDraw = False
+69.4691 	EXP 	polygon_2: autoDraw = True
+69.7491 	EXP 	polygon_2: autoDraw = False
+69.7658 	EXP 	polygon_3: autoDraw = True
+70.3493 	EXP 	polygon_3: autoDraw = False
+70.3493 	EXP 	polygon: autoDraw = False
+70.3493 	EXP 	polygon_2: autoDraw = False
+70.3493 	EXP 	polygon_3: autoDraw = False
+70.3493 	EXP 	text: autoDraw = True
+75.3351 	EXP 	New trial (rep=7, index=0): None
+75.3355 	EXP 	Created sequence: fullRandom, trialTypes=1, nReps=4, seed=None
+75.3358 	EXP 	New trial (rep=0, index=0): None
+75.3509 	EXP 	text: autoDraw = False
+75.3509 	EXP 	text: autoDraw = False
+75.3509 	EXP 	polygon_2: pos = array([-0.8,  0. ])
+75.3509 	EXP 	polygon: autoDraw = True
+75.6510 	EXP 	polygon: autoDraw = False
+75.6677 	EXP 	polygon_2: autoDraw = True
+75.9511 	EXP 	polygon_2: autoDraw = False
+75.9678 	EXP 	polygon_3: autoDraw = True
+76.5357 	EXP 	New trial (rep=1, index=0): None
+76.5512 	EXP 	polygon_3: autoDraw = False
+76.5512 	EXP 	polygon: autoDraw = False
+76.5512 	EXP 	polygon_2: autoDraw = False
+76.5512 	EXP 	polygon_3: autoDraw = False
+76.5512 	EXP 	polygon_2: pos = array([-0.8,  0. ])
+76.5512 	EXP 	polygon: autoDraw = True
+76.8514 	EXP 	polygon: autoDraw = False
+76.8681 	EXP 	polygon_2: autoDraw = True
+77.1514 	EXP 	polygon_2: autoDraw = False
+77.1681 	EXP 	polygon_3: autoDraw = True
+77.7358 	EXP 	New trial (rep=2, index=0): None
+77.7520 	EXP 	polygon_3: autoDraw = False
+77.7520 	EXP 	polygon: autoDraw = False
+77.7520 	EXP 	polygon_2: autoDraw = False
+77.7520 	EXP 	polygon_3: autoDraw = False
+77.7520 	EXP 	polygon_2: pos = array([0. , 0.8])
+77.7520 	EXP 	polygon: autoDraw = True
+78.0517 	EXP 	polygon: autoDraw = False
+78.0684 	EXP 	polygon_2: autoDraw = True
+78.3518 	EXP 	polygon_2: autoDraw = False
+78.3686 	EXP 	polygon_3: autoDraw = True
+78.9364 	EXP 	New trial (rep=3, index=0): None
+78.9539 	EXP 	polygon_3: autoDraw = False
+78.9539 	EXP 	polygon: autoDraw = False
+78.9539 	EXP 	polygon_2: autoDraw = False
+78.9539 	EXP 	polygon_3: autoDraw = False
+78.9539 	EXP 	polygon_2: pos = array([0. , 0.8])
+78.9539 	EXP 	polygon: autoDraw = True
+79.2550 	EXP 	polygon: autoDraw = False
+79.2688 	EXP 	polygon_2: autoDraw = True
+79.5547 	EXP 	polygon_2: autoDraw = False
+79.5689 	EXP 	polygon_3: autoDraw = True
+80.1556 	EXP 	polygon_3: autoDraw = False
+80.1556 	EXP 	polygon: autoDraw = False
+80.1556 	EXP 	polygon_2: autoDraw = False
+80.1556 	EXP 	polygon_3: autoDraw = False
+80.1556 	EXP 	text: autoDraw = True
+85.1382 	EXP 	New trial (rep=8, index=0): None
+85.1386 	EXP 	Created sequence: fullRandom, trialTypes=1, nReps=4, seed=None
+85.1390 	EXP 	New trial (rep=0, index=0): None
+85.1539 	EXP 	text: autoDraw = False
+85.1539 	EXP 	text: autoDraw = False
+85.1539 	EXP 	polygon_2: pos = array([-0.8,  0. ])
+85.1539 	EXP 	polygon: autoDraw = True
+85.4541 	EXP 	polygon: autoDraw = False
+85.4707 	EXP 	polygon_2: autoDraw = True
+85.7543 	EXP 	polygon_2: autoDraw = False
+85.7708 	EXP 	polygon_3: autoDraw = True
+86.3384 	EXP 	New trial (rep=1, index=0): None
+86.3543 	EXP 	polygon_3: autoDraw = False
+86.3543 	EXP 	polygon: autoDraw = False
+86.3543 	EXP 	polygon_2: autoDraw = False
+86.3543 	EXP 	polygon_3: autoDraw = False
+86.3543 	EXP 	polygon_2: pos = array([0. , 0.8])
+86.3543 	EXP 	polygon: autoDraw = True
+86.6544 	EXP 	polygon: autoDraw = False
+86.6713 	EXP 	polygon_2: autoDraw = True
+86.9545 	EXP 	polygon_2: autoDraw = False
+86.9715 	EXP 	polygon_3: autoDraw = True
+87.5387 	EXP 	New trial (rep=2, index=0): None
+87.5546 	EXP 	polygon_3: autoDraw = False
+87.5546 	EXP 	polygon: autoDraw = False
+87.5546 	EXP 	polygon_2: autoDraw = False
+87.5546 	EXP 	polygon_3: autoDraw = False
+87.5546 	EXP 	polygon_2: pos = array([0.8, 0. ])
+87.5546 	EXP 	polygon: autoDraw = True
+87.8547 	EXP 	polygon: autoDraw = False
+87.8719 	EXP 	polygon_2: autoDraw = True
+88.1549 	EXP 	polygon_2: autoDraw = False
+88.1715 	EXP 	polygon_3: autoDraw = True
+88.7270 	EXP 	New trial (rep=3, index=0): None
+88.7385 	EXP 	polygon_3: autoDraw = False
+88.7385 	EXP 	polygon: autoDraw = False
+88.7385 	EXP 	polygon_2: autoDraw = False
+88.7385 	EXP 	polygon_3: autoDraw = False
+88.7385 	EXP 	polygon_2: pos = array([0.8, 0. ])
+88.7385 	EXP 	polygon: autoDraw = True
+89.0386 	EXP 	polygon: autoDraw = False
+89.0562 	EXP 	polygon_2: autoDraw = True
+89.3385 	EXP 	polygon_2: autoDraw = False
+89.3385 	EXP 	polygon_3: autoDraw = True
+89.9387 	EXP 	polygon_3: autoDraw = False
+89.9387 	EXP 	polygon: autoDraw = False
+89.9387 	EXP 	polygon_2: autoDraw = False
+89.9387 	EXP 	polygon_3: autoDraw = False
+89.9387 	EXP 	text: autoDraw = True
+94.9252 	EXP 	New trial (rep=9, index=0): None
+94.9260 	EXP 	Created sequence: fullRandom, trialTypes=1, nReps=4, seed=None
+94.9266 	EXP 	New trial (rep=0, index=0): None
+94.9403 	EXP 	text: autoDraw = False
+94.9403 	EXP 	text: autoDraw = False
+94.9403 	EXP 	polygon_2: pos = array([-0.8,  0. ])
+94.9403 	EXP 	polygon: autoDraw = True
+95.2404 	EXP 	polygon: autoDraw = False
+95.2572 	EXP 	polygon_2: autoDraw = True
+95.5409 	EXP 	polygon_2: autoDraw = False
+95.5579 	EXP 	polygon_3: autoDraw = True
+96.1251 	EXP 	New trial (rep=1, index=0): None
+96.1407 	EXP 	polygon_3: autoDraw = False
+96.1407 	EXP 	polygon: autoDraw = False
+96.1407 	EXP 	polygon_2: autoDraw = False
+96.1407 	EXP 	polygon_3: autoDraw = False
+96.1407 	EXP 	polygon_2: pos = array([ 0. , -0.8])
+96.1407 	EXP 	polygon: autoDraw = True
+96.4408 	EXP 	polygon: autoDraw = False
+96.4575 	EXP 	polygon_2: autoDraw = True
+96.7409 	EXP 	polygon_2: autoDraw = False
+96.7576 	EXP 	polygon_3: autoDraw = True
+97.3255 	EXP 	New trial (rep=2, index=0): None
+97.3412 	EXP 	polygon_3: autoDraw = False
+97.3412 	EXP 	polygon: autoDraw = False
+97.3412 	EXP 	polygon_2: autoDraw = False
+97.3412 	EXP 	polygon_3: autoDraw = False
+97.3412 	EXP 	polygon_2: pos = array([0.8, 0. ])
+97.3412 	EXP 	polygon: autoDraw = True
+97.6411 	EXP 	polygon: autoDraw = False
+97.6578 	EXP 	polygon_2: autoDraw = True
+97.9422 	EXP 	polygon_2: autoDraw = False
+97.9582 	EXP 	polygon_3: autoDraw = True
+98.5259 	EXP 	New trial (rep=3, index=0): None
+98.5443 	EXP 	polygon_3: autoDraw = False
+98.5443 	EXP 	polygon: autoDraw = False
+98.5443 	EXP 	polygon_2: autoDraw = False
+98.5443 	EXP 	polygon_3: autoDraw = False
+98.5443 	EXP 	polygon_2: pos = array([0. , 0.8])
+98.5443 	EXP 	polygon: autoDraw = True
+98.8449 	EXP 	polygon: autoDraw = False
+98.8582 	EXP 	polygon_2: autoDraw = True
+99.1432 	EXP 	polygon_2: autoDraw = False
+99.1583 	EXP 	polygon_3: autoDraw = True
+99.7429 	EXP 	polygon_3: autoDraw = False
+99.7429 	EXP 	polygon: autoDraw = False
+99.7429 	EXP 	polygon_2: autoDraw = False
+99.7429 	EXP 	polygon_3: autoDraw = False
+99.7429 	EXP 	text: autoDraw = True
+104.7434 	EXP 	text: autoDraw = False
+104.7434 	EXP 	text: autoDraw = False
+104.7434 	EXP 	text_2: autoDraw = True
+105.7642 	EXP 	window1: mouseVisible = True
